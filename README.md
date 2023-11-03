@@ -8,7 +8,9 @@ Some points to keep in mind while dealing with time-series:
 3) Cross-validation (with sliding or expanding window as testing strategy) is also tricky.
 <img width="491" alt="image" src="https://github.com/ranja-sarkar/timeseries/assets/101544669/0dcf3f84-cc5c-4b16-98a5-58c4f2cddc9e">
 
+In general, some time-series exhibit ill-behaved uncertainty. The forecast errors do not follow known distributions. Such information is useful for making judgmental decisions, but cannot be modeled and used for forecasting. Such an uncertainty is coconut uncertainty - of unknown unknowns leading to unpredictability. 
+<img width="334" alt="image" src="https://github.com/ranja-sarkar/timeseries/assets/101544669/05b48529-29cc-4166-95ee-795a20961b5a">
 
-Subway uncertainty is the uncertainty of known unknowns; events can be predicted assuming a window of uncertainty. It's like even on a worst day or trying to navigate rush hour train, your subway voyage almost definitely won't take you more than around 30 minutes plus planned time.
+Other time-series exhibit well-behaved uncertainty. The forecast errors follow known distributions - Normal, Poisson etc.. Such information is useful for modeling and predictions bound within a certain range. This window of uncertainty is subway uncertainty - of known unknowns. 
+<img width="341" alt="image" src="https://github.com/ranja-sarkar/timeseries/assets/101544669/a6c5417f-50e5-4bd8-aefc-18bab5809f8a">
 
-Coconut uncertainty is an allusion to a coconut unexpectedly falling on one’s head while on a beach. It's the uncertainty of unknown unknowns; events that could never have been predicted no matter how hard we tried.
