@@ -1,3 +1,4 @@
+#exploring time-series components
 
 import pandas as pd
 import datetime
