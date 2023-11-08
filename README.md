@@ -30,9 +30,15 @@ Exponential Smoothing - Defines trend as the difference between observed values 
 
 ARIMA handles data with trend.
 SARIMA handles data with a seasonal component. 
-The trend, seasonality and noise in a time series are explained by model parameter set (p,d,q), also called the order. The auto-regressive parameter is p; d is difference parameter and q is the moving average parameter. Trend is the long-term change in the mean level of observations. Seasonality is the pattern that’s periodically repeated, and noise is the random variation in the data. A time series is additive when the 'trend' is linear (changes are at linear rate) and 'seasonality' is constant in time.
+The trend, seasonality and noise in a time series are explained by model parameter set (p,d,q), also called the order. The auto-regressive parameter is p; d is difference parameter and q is the moving average parameter. Trend is the long-term change in the mean level of observations. Seasonality is the pattern that’s periodically repeated, and noise is the random variation in the data. A time series is additive when the 'trend' is linear (changes are at linear rate) and 'seasonality' is constant in time. A stationary time series does not exhibit a trend.
 
 Y(t) = Level + Trend + Seasonality + Noise
-A stationary time series does not exhibit a trend.
 
 For multivariate time-series data, one can follow VAR (vector autoregression) approach. One can utilize deep learning methods like LSTM in multivariate time-series.
+
+**Other libraries used for forecasting**
+
+https://unit8.com/resources/darts-time-series-made-easy-in-python/
+
+https://pypi.org/project/statsforecast/
+
