@@ -19,3 +19,8 @@ Other time-series exhibit well-behaved uncertainty. The forecast errors follow k
 Forecast of level + trend is a baseline forecast. Baseline forecasts with the persistence model (Using an observation at the previous time step to learn what will happen in the next time step)
 quickly indicate whether you can do significantly better. If you can’t, you’re probably dealing with a random walk. 
 The human mind is hardwired to look for patterns everywhere and we must be vigilant we're not fooling ourselves and wasting time by developing elaborate models for random walk processes.
+**Approaches to smoothing a time-series**
+
+Holt's method - there are level smoothing constant (alpha) and trend constant (beta). 
+Holt Winter's method (seasonal smoothing) - considers seasonal baseline which is a regularly recurring pattern (day, week, month, quarter etc.) and baseline rises and falls at regular intervals. Deviation of each season from the baseline’s long-term (annual) average is used for forecasts (seasonal smoothing constant is delta). 
+Exponential Smoothing - Defines trend as the difference between observed values in consecutive (in time) records.
