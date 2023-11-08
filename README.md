@@ -1,4 +1,7 @@
 # timeseries
+Baseline forecasts with the persistence model (Using an observation at the previous time step to learn what will happen in the next time step)
+quickly indicate whether you can do significantly better. If you can’t, you’re probably dealing with a random walk. 
+The human mind is hardwired to look for patterns everywhere and we must be vigilant we're not fooling ourselves and wasting time by developing elaborate models for random walk processes.
 
 Time-series analysis is interesting, however forecasting with time-series data can be challenging. 
 Some points to keep in mind while dealing with time-series:
