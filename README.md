@@ -19,6 +19,7 @@ Other time-series exhibit well-behaved uncertainty. The forecast errors follow k
 Forecast of level + trend is a baseline forecast. Baseline forecasts with the persistence model (Using an observation at the previous time step to learn what will happen in the next time step)
 quickly indicate whether you can do significantly better. If you can’t, you’re probably dealing with a random walk. 
 The human mind is hardwired to look for patterns everywhere and we must be vigilant we're not fooling ourselves and wasting time by developing elaborate models for random walk processes.
+
 **Approaches to smoothing a time-series**
 
 Holt's method - there are level smoothing constant (alpha) and trend constant (beta). 
@@ -34,3 +35,4 @@ The trend, seasonality and noise in a time series are explained by model paramet
 Y(t) = Level + Trend + Seasonality + Noise
 A stationary time series does not exhibit a trend.
 
+For multivariate time-series data, one can follow VAR (vector autoregression) approach. One can utilize deep learning methods like LSTM in multivariate time-series.
