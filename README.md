@@ -20,7 +20,7 @@ Forecast of level + trend is a baseline forecast. Baseline forecasts with the pe
 quickly indicate whether you can do significantly better. If you can’t, you’re probably dealing with a random walk. 
 The human mind is hardwired to look for patterns everywhere and we must be vigilant we're not fooling ourselves and wasting time by developing elaborate models for random walk processes.
 
-**Approaches to smoothing a time-series**
+**Approaches to smoothing a time-series: Baseline models**
 
 Holt's method - there're level smoothing constant (alpha) and trend constant (beta).
 
