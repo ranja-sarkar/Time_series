@@ -22,9 +22,13 @@ The human mind is hardwired to look for patterns everywhere and we must be vigil
 
 **Approaches to smoothing a time-series**
 
-Holt's method - there are level smoothing constant (alpha) and trend constant (beta). 
-Holt Winter's method (seasonal smoothing) - considers seasonal baseline which is a regularly recurring pattern (day, week, month, quarter etc.) and baseline rises and falls at regular intervals. Deviation of each season from the baseline’s long-term (annual) average is used for forecasts (seasonal smoothing constant is delta). 
+Holt's method - there're level smoothing constant (alpha) and trend constant (beta).
+
+Holt Winter's method - there's seasonal smoothing constant (delta) and considers seasonal baseline which is a regularly recurring pattern (day, week, month, quarter etc.) and baseline rises and falls at regular intervals. Deviation of each season from the baseline’s long-term (annual) average is used for forecasts. 
+
 Exponential Smoothing - Defines trend as the difference between observed values in consecutive (in time) records.
+
+Smoothing models are for removal of noise. Moving averages are considered for these and they can be simple, exponential, and cumulative.
 
 **Forecasting approach**
 
