@@ -39,6 +39,8 @@ The trend, seasonality and noise in a time series are explained by model paramet
 
 Y(t) = Level + Trend + Seasonality + Noise
 
+Example: https://www.kaggle.com/code/ranja7/sarima-forecasts-auto-arima
+
 For multivariate time-series data, one can follow VAR (vector autoregression) approach. One can utilize deep learning methods like LSTM in multivariate time-series.
 https://www.kaggle.com/code/ranja7/forecasting-with-lstm-tensorflow
 
