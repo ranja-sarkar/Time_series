@@ -29,6 +29,7 @@ Holt Winter's method - there's seasonal smoothing constant (delta) and considers
 Exponential Smoothing - Defines trend as the difference between observed values in consecutive (in time) records.
 
 Smoothing models are for removal of noise. Moving averages are considered for these and they can be simple, exponential, and cumulative.
+Examples: https://www.kaggle.com/code/ranja7/energy-consumption-forecast-baseline-models
 
 **Forecasting approach**
 
