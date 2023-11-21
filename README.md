@@ -51,4 +51,7 @@ https://pypi.org/project/statsforecast/
 
 There can be outliers in time-series data, often called anomalies due to their deviation from 'normal'. Anomalies can be point or collective (subsequent). 
 https://www.kaggle.com/code/ranja7/anomaly-detection-in-timeseries-isolation-forest
+One can also use PROPHET for anomaly detection and forecasting:
+https://facebook.github.io/prophet/docs/outliers.html
+
 
