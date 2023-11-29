@@ -21,3 +21,9 @@ def kpss_test(dataseries):
 #print('\n \n')
 #print(kpss_test(train['']))
 
+#adf_test(train.diff().dropna())
+#kpss_test(train.diff().dropna())
+
+##KPSS assumes the series is stationary, non-stationary if p-value<0.05 or if test statistic is above critical value
+
+
