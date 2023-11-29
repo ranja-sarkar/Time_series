@@ -62,6 +62,11 @@ https://www.kaggle.com/code/ranja7/anomaly-detection-in-timeseries-isolation-for
 One can also use PROPHET for anomaly detection and forecasting:
 https://facebook.github.io/prophet/docs/outliers.html
 
+**Multivariate Time-series**
+
+One can train a Vector Auto Regression (VAR) model with multivariate timeseries data. These is baseline and can be used to benchmark advanced models.
+Please refer to the VAR directory for a sample/reference.
+
 
 
 
