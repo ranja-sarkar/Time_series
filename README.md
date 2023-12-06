@@ -63,7 +63,7 @@ https://facebook.github.io/prophet/docs/outliers.html
 
 For multivariate time-series data, one can follow VAR (vector autoregression) approach. One can utilize deep learning methods like LSTM in multivariate time-series.
 https://www.kaggle.com/code/ranja7/forecasting-with-lstm-tensorflow
-One can train a Vector Auto Regression (VAR) model as well with multivariate timeseries data. This is baseline model and can be used to benchmark advanced models like aforementioned.
+The VAR model is baseline and can be trained to benchmark advanced models like aforementioned.
 Please refer to the VAR directory for a sample/reference.
 
 
