@@ -44,9 +44,6 @@ Y(t) = Level + Trend + Seasonality + Noise
 
 Example: https://www.kaggle.com/code/ranja7/sarima-forecasts-auto-arima
 
-For multivariate time-series data, one can follow VAR (vector autoregression) approach. One can utilize deep learning methods like LSTM in multivariate time-series.
-https://www.kaggle.com/code/ranja7/forecasting-with-lstm-tensorflow
-
 **Other libraries used for forecasting**
 
 https://unit8.com/resources/darts-time-series-made-easy-in-python/
@@ -64,7 +61,9 @@ https://facebook.github.io/prophet/docs/outliers.html
 
 **Multivariate Time-series**
 
-One can train a Vector Auto Regression (VAR) model with multivariate timeseries data. This is baseline model and can be used to benchmark advanced models.
+For multivariate time-series data, one can follow VAR (vector autoregression) approach. One can utilize deep learning methods like LSTM in multivariate time-series.
+https://www.kaggle.com/code/ranja7/forecasting-with-lstm-tensorflow
+One can train a Vector Auto Regression (VAR) model as well with multivariate timeseries data. This is baseline model and can be used to benchmark advanced models like aforementioned.
 Please refer to the VAR directory for a sample/reference.
 
 
