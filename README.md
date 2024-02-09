@@ -25,19 +25,19 @@ The human mind is hardwired to look for patterns everywhere and we must be vigil
 
 **Approaches to smoothing a time-series: Baseline models**
 
-Holt's method - there're level smoothing constant (alpha) and trend constant (beta).
+**Holt's method** - there're level smoothing constant (alpha) and trend constant (beta).
 
-Holt Winter's method - there's seasonal smoothing constant (delta) and considers seasonal baseline which is a regularly recurring pattern (day, week, month, quarter etc.) and baseline rises and falls at regular intervals. Deviation of each season from the baseline’s long-term (annual) average is used for forecasts. 
+**Holt Winter's method** - there's seasonal smoothing constant (delta) and considers seasonal baseline which is a regularly recurring pattern (day, week, month, quarter etc.) and baseline rises and falls at regular intervals. Deviation of each season from the baseline’s long-term (annual) average is used for forecasts. 
 
-Exponential Smoothing - Defines trend as the difference between observed values in consecutive (in time) records.
+**Exponential Smoothing** - Defines trend as the difference between observed values in consecutive (in time) records.
 
 Smoothing models are for removal of noise. Moving averages are considered for these and they can be simple, exponential, and cumulative.
 Examples: https://www.kaggle.com/code/ranja7/energy-consumption-forecast-baseline-models
 
 **Forecasting approach**
 
-ARIMA handles data with trend.
-SARIMA handles data with a seasonal component. 
+**ARIMA** handles data with trend.
+**SARIMA** handles data with a seasonal component. 
 The trend, seasonality and noise in a time series are explained by model parameter set (p,d,q), also called the order. The auto-regressive parameter is p; d is difference parameter and q is the moving average parameter. Trend is the long-term change in the mean level of observations. Seasonality is the pattern that’s periodically repeated, and noise is the random variation in the data. A time series is additive when the 'trend' is linear (changes are at linear rate) and 'seasonality' is constant in time. A time series is multiplicative when the 'trend' is non-linear. A stationary time series has constant mean over time and does not exhibit a trend.
 
 Y(t) = Level + Trend + Seasonality + Noise
@@ -56,7 +56,7 @@ There can be outliers in time-series data, often called anomalies due to their d
 https://www.kaggle.com/code/ranja7/anomaly-detection-in-timeseries-isolation-forest
 
 
-One can also use PROPHET for anomaly detection and forecasting, although I haven't used it yet:
+One can also use the FACEBOOK/META developed package PROPHET for anomaly detection and forecasting:
 https://facebook.github.io/prophet/docs/outliers.html
 
 **Multivariate Time-series**
