@@ -68,7 +68,14 @@ https://facebook.github.io/prophet/docs/outliers.html
 For multivariate time-series data, one can follow VAR (vector autoregression) approach. One can utilize deep learning methods like LSTM in multivariate time-series.
 https://www.kaggle.com/code/ranja7/forecasting-with-lstm-tensorflow
 The VAR model is baseline and can be trained to benchmark advanced models like aforementioned.
-Please refer to the VAR directory for a sample/reference.
+Please refer to the VAR directory of the repo for a sample/reference.
+
+**Probabilistic modeling:**
+
+For probabilistic time-series modeling, one can use GluonTS. 
+https://github.com/awslabs/gluonts
+
+
 
 
 
