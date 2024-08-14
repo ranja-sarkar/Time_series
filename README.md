@@ -70,9 +70,10 @@ https://www.kaggle.com/code/ranja7/forecasting-with-lstm-tensorflow
 The VAR model is baseline and can be trained to benchmark advanced models like aforementioned.
 Please refer to the VAR directory of the repo for a sample/reference.
 
-**Probabilistic modeling:**
+**Probabilistic modeling**
 
-For probabilistic time-series modeling, one can use GluonTS. 
+For probabilistic time-series modeling, one can use GluonTS: 
+
 https://github.com/awslabs/gluonts
 
 
