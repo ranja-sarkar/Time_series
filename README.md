@@ -50,10 +50,14 @@ Example: https://www.kaggle.com/code/ranja7/sarima-forecasts-auto-arima
 
 **Other libraries used for forecasting**
 
-https://unit8.com/resources/darts-time-series-made-easy-in-python/
+Darts: https://unit8.com/resources/darts-time-series-made-easy-in-python/
 <img width="279" alt="image" src="https://github.com/ranja-sarkar/Time_series/assets/101544669/2702a5df-5000-4fb9-829c-dd1a1f6abdb7">
 
-https://pypi.org/project/statsforecast/
+Statsforecast: https://pypi.org/project/statsforecast/
+
+Sktime: https://www.sktime.net/en/latest/
+
+tslearn: https://github.com/tslearn-team/tslearn
 
 There can be outliers in time-series data, often called anomalies due to their deviation from 'normal'. Anomalies can be point or collective (subsequent). 
 
