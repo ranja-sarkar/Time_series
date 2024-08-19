@@ -59,6 +59,8 @@ Sktime: https://www.sktime.net/en/latest/
 
 tslearn: https://github.com/tslearn-team/tslearn
 
+autoTS: https://github.com/winedarksea/AutoTS
+
 There can be outliers in time-series data, often called anomalies due to their deviation from 'normal'. Anomalies can be point or collective (subsequent). 
 
 https://www.kaggle.com/code/ranja7/anomaly-detection-in-timeseries-isolation-forest
