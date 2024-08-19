@@ -80,6 +80,12 @@ For probabilistic time-series modeling, one can use GluonTS:
 
 https://github.com/awslabs/gluonts
 
+**A time-series Foundation Model for forecasting**
+
+Blog: https://blog.salesforceairesearch.com/moirai/
+
+Repo: https://github.com/SalesforceAIResearch/uni2ts
+
 
 
 
