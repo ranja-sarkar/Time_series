@@ -61,7 +61,10 @@ tslearn: https://github.com/tslearn-team/tslearn
 
 autoTS: https://github.com/winedarksea/AutoTS
 
-There can be outliers in time-series data, often called anomalies due to their deviation from 'normal'. Anomalies can be point or collective (subsequent). 
+Now this 'autoTS' is different from the one used here: https://www.kaggle.com/code/ranja7/forecasting-with-auto-ts
+
+
+Outliers in time-series data which are deviations from 'normal' called anomalies can be point or collective (subsequent). 
 
 https://www.kaggle.com/code/ranja7/anomaly-detection-in-timeseries-isolation-forest
 
