@@ -83,9 +83,8 @@ Please refer to the VAR directory of the repo for a sample/reference.
 
 **Probabilistic modeling**
 
-For probabilistic time-series modeling, one can use **AutoGluon**: 
+For probabilistic time-series modeling, one can use **AutoGluon**: https://github.com/awslabs/gluonts
 
-https://github.com/awslabs/gluonts
 
 Demo: https://colab.research.google.com/drive/1M7J9zSAJ6x6w-76JzOBjft3CvmCGaELP?usp=sharing
 
