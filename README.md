@@ -48,9 +48,9 @@ Unlike SMA and CMA, exponential moving average (EMA) gives more weight to the re
 **SARIMA** handles data with a seasonal component. 
 The trend, seasonality and noise in a time series are explained by model parameter set (p,d,q), also called the order. The auto-regressive parameter is p; d is difference parameter and q is the moving average parameter. Trend is the long-term change in the mean level of observations. Seasonality is the pattern that’s periodically repeated, and noise is the random variation in the data. 
 
-A time series is additive when the 'trend' is linear (changes in mean and variance are at linear rate) and 'seasonality' is constant in time. A time series is multiplicative when the 'trend' is non-linear. A stationary time series has constant mean over time and does not exhibit a trend.
+A time series is additive when the 'trend' is linear (changes in mean and variance are at linear rate) and 'seasonality' is constant in time. A time series is multiplicative when the 'trend' is non-linear. A stationary time series has constant mean over time and does not exhibit a trend. Having no trend menas identically distributed random variables.  
 
-Y(t) = Level + Trend + Seasonality + Noise
+Y(t) = Level + Trend + Seasonality + Noise 
 
 Example: https://www.kaggle.com/code/ranja7/sarima-forecasts-auto-arima
 
