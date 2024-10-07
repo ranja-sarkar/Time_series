@@ -20,7 +20,7 @@ Other time-series exhibit well-behaved uncertainty. The forecast errors follow k
 
 <img width="341" alt="image" src="https://github.com/ranja-sarkar/timeseries/assets/101544669/a6c5417f-50e5-4bd8-aefc-18bab5809f8a">
 
-Forecast of level + trend is a baseline forecast. Baseline forecasts with the persistence model (Using an observation at the previous time step to learn what will happen in the next time step)
+Forecast of level + trend is a baseline forecast. Baseline forecasts with the persistence model (using an observation at the previous time step to learn what will happen in the next time step)
 quickly indicate whether you can do significantly better. If you can’t, you’re probably dealing with a random walk. 
 The human mind is hardwired to look for patterns everywhere and we must be vigilant we're not fooling ourselves and wasting time by developing elaborate models for random walk processes.
 
