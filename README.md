@@ -61,7 +61,7 @@ tslearn: https://github.com/tslearn-team/tslearn
 
 autoTS: https://github.com/winedarksea/AutoTS
 
-Now please note this 'autoTS' is different from the one used here: https://www.kaggle.com/code/ranja7/forecasting-with-auto-ts
+Please note this 'autoTS' is different from the one used here.
 
 
 Outliers in time-series data which are deviations from 'normal' called anomalies can be point or collective (subsequent). 
@@ -84,6 +84,7 @@ Please refer to the VAR directory of the repo for a sample/reference.
 For probabilistic time-series modeling, one can use **AutoGluon**: 
 
 https://github.com/awslabs/gluonts
+Demo: https://colab.research.google.com/drive/1M7J9zSAJ6x6w-76JzOBjft3CvmCGaELP?usp=sharing
 
 https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-chronos.html
 
