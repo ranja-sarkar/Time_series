@@ -1,10 +1,10 @@
 # timeseries
 
-Time-series analysis is adventurous I'd say, forecasting with time-series data can be challenging. 
+Time-series analysis is quite an adventure I'd say. 
 <img width="500" alt="image" src="https://github.com/ranja-sarkar/Time_series/assets/101544669/aa888439-8a6e-4088-beae-11fc7dd6146f">
 
 
-Some points to keep in mind while dealing with time-series:
+Some points to keep in mind while dealing with time-series data:
 
 1) The uncertainty of forecast is just as important as the (point) forecast itself.
 2) Model serving (deploying & scoring) is really tricky.
