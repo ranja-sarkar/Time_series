@@ -1,4 +1,3 @@
-# timeseries
 
 Time-series analysis is quite an adventure I'd say. 
 <img width="500" alt="image" src="https://github.com/ranja-sarkar/Time_series/assets/101544669/aa888439-8a6e-4088-beae-11fc7dd6146f">
