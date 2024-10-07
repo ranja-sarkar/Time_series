@@ -85,11 +85,11 @@ Please refer to the VAR directory of the repo for a sample/reference.
 
 For probabilistic time-series modeling, one can use **AutoGluon**: https://github.com/awslabs/gluonts
 
+Chronos is a family of pretrained time series forecasting models. Chronos models are based on language model architectures, and work by quantizing time series into buckets which are treated as tokens: https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-chronos.html
+
 
 Demo: https://colab.research.google.com/drive/1M7J9zSAJ6x6w-76JzOBjft3CvmCGaELP?usp=sharing
 
-
-https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-chronos.html
 
 **A time-series Foundation Model for forecasting**
 
