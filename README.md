@@ -1,13 +1,14 @@
 
-Time-series analysis is quite an adventure I'd say. 
-<img width="500" alt="image" src="https://github.com/ranja-sarkar/Time_series/assets/101544669/aa888439-8a6e-4088-beae-11fc7dd6146f">
+Time-series analysis is quite an adventure I'd say - complex yet interesting. There are many layers to it.
+
+<img width="598" alt="0" src="https://github.com/user-attachments/assets/adc097ef-5bef-4730-95ff-028a0bff3613">
 
 
 Some points to keep in mind while dealing with time-series data:
 
 1) The uncertainty of forecast is just as important as the (point) forecast itself.
-2) Model serving (deploying & scoring) is really tricky.
-3) Cross-validation (with sliding or expanding window as testing strategy) is also tricky.
+2) Model serving (deploying & scoring) is challenging.
+3) Cross-validation (with sliding or expanding window as testing strategy) is tricky.
 <img width="491" alt="image" src="https://github.com/ranja-sarkar/timeseries/assets/101544669/0dcf3f84-cc5c-4b16-98a5-58c4f2cddc9e">
 
 In general, some time-series exhibit ill-behaved uncertainty. The forecast errors do not follow known distributions. Such information is useful for making judgmental decisions, but cannot be modeled and used for forecasting. Such an uncertainty is coconut uncertainty - of unknown unknowns leading to unpredictability. 
