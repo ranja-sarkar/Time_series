@@ -94,11 +94,13 @@ For probabilistic time-series modeling, one can use **AutoGluon**: https://githu
 
 Chronos is a family of pretrained time series forecasting models. Chronos models are based on language model architectures, and work by quantizing time series into buckets which are treated as tokens: https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-chronos.html
 
+From Amazon Science: https://www.amazon.science/blog/adapting-language-model-architectures-for-time-series-forecasting
+
 
 Demo: https://colab.research.google.com/drive/1M7J9zSAJ6x6w-76JzOBjft3CvmCGaELP?usp=sharing
 
 
-**A time-series Foundation Model for forecasting**
+**Foundation Model for timeseries forecasting**
 
 Blog: https://blog.salesforceairesearch.com/moirai/
 
