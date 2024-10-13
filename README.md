@@ -1,5 +1,5 @@
 
-**Substack article om time-series:**
+**Substack article on time-series analysis:**
 
 https://open.substack.com/pub/ranjas/p/forecasting-with-time-series
 
