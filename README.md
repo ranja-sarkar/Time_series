@@ -89,6 +89,8 @@ https://deel-ai.github.io/puncc/anomaly_detection.html
 
 https://github.com/deel-ai/puncc/blob/main/docs/puncc_intro.ipynb
 
+Conformalization: https://en.wikipedia.org/wiki/Conformal_prediction
+
 
 One can also use the FACEBOOK/META developed package PROPHET for anomaly detection and forecasting:
 https://facebook.github.io/prophet/docs/outliers.html
