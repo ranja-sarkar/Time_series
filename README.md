@@ -1,7 +1,7 @@
 
 **Substack article om time-series:**
 
-https://open.substack.com/pub/ranjas/p/forecasting-with-time-series?utm_campaign=post&utm_medium=web
+https://open.substack.com/pub/ranjas/p/forecasting-with-time-series
 
 <img width="598" alt="0" src="https://github.com/user-attachments/assets/adc097ef-5bef-4730-95ff-028a0bff3613">
 
