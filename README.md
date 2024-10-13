@@ -4,8 +4,7 @@ Time-series analysis is quite an adventure I'd say - complex yet interesting. Th
 <img width="598" alt="0" src="https://github.com/user-attachments/assets/adc097ef-5bef-4730-95ff-028a0bff3613">
 
 
-Heteroscedasticity happens when the standard errors of a variable, monitored over a specific amount of time are non-constant. It often arises as conditional and unconditional. 
-Conditional heteroscedasticity identifies non-constant volatility (degree of variation of series over time) when future periods of high & low volatility cannot be identified. Unconditional heteroscedasticity is used when future high & low volatility periods can be identified.
+Heteroscedasticity happens when the standard errors of a variable, monitored over a specific amount of time are non-constant. Conditional heteroscedasticity identifies non-constant volatility (degree of variation of series over time) when future periods of high & low volatility cannot be identified. Unconditional heteroscedasticity is used when future high & low volatility periods can be identified.
 
 Some points to keep in mind while dealing with time-series data:
 
