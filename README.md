@@ -79,6 +79,10 @@ Outliers in time-series data which are deviations from 'normal' called anomalies
 
 https://www.kaggle.com/code/ranja7/anomaly-detection-in-timeseries-isolation-forest
 
+Conformal anomaly detection in timeseries data: 
+
+https://colab.research.google.com/drive/1iP36nrvTge18kdNZPOXjn5nje8SMj-bk?usp=sharing#scrollTo=Z0oMmL7djROr%2F
+
 
 One can also use the FACEBOOK/META developed package PROPHET for anomaly detection and forecasting:
 https://facebook.github.io/prophet/docs/outliers.html
