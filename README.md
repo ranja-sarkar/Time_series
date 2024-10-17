@@ -67,9 +67,9 @@ Darts: https://unit8.com/resources/darts-time-series-made-easy-in-python/
 <img width="279" alt="image" src="https://github.com/ranja-sarkar/Time_series/assets/101544669/2702a5df-5000-4fb9-829c-dd1a1f6abdb7">
 
 
-Statsforecast: https://pypi.org/project/statsforecast/
+statsforecast: https://pypi.org/project/statsforecast/
 
-Sktime: https://www.sktime.net/en/latest/
+sktime: https://www.sktime.net/en/latest/
 
 skforecast: https://skforecast.org/0.13.0/index.html
 
