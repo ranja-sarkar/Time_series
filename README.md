@@ -71,6 +71,8 @@ Statsforecast: https://pypi.org/project/statsforecast/
 
 Sktime: https://www.sktime.net/en/latest/
 
+skforecast: https://skforecast.org/0.13.0/index.html
+
 tslearn: https://github.com/tslearn-team/tslearn
 
 autoTS: https://github.com/winedarksea/AutoTS
