@@ -99,9 +99,9 @@ https://facebook.github.io/prophet/docs/outliers.html
 
 For multivariate time-series data, one can follow VAR (vector autoregression) approach. 
 
-Example: 
+Example: https://www.kaggle.com/code/ranja7/multivariate-timeseries-forecasting-var
 
-One can utilize deep learning methods like LSTM in multivariate time-series.
+One can utilize deep learning algorithms like LSTM (with either tensorflow or pytorch) in multivariate time-series.
 
 Example: https://www.kaggle.com/code/ranja7/forecasting-with-lstm-tensorflow
 
