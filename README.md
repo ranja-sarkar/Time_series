@@ -100,6 +100,11 @@ Conformal Regression & Classification:  https://github.com/deel-ai/puncc/blob/ma
 One can also use the FACEBOOK/META developed package PROPHET for anomaly detection and forecasting:
 https://facebook.github.io/prophet/docs/outliers.html
 
+Another library (by Salesforce) suited for forecasting and anomaly detection is merlion: https://github.com/salesforce/Merlion
+<img width="503" alt="1" src="https://github.com/user-attachments/assets/e076da9d-425e-4a21-b547-abe10982e484">
+
+
+
 **Multivariate Time-series**
 
 For multivariate time-series data, one can follow VAR (vector autoregression) approach. 
