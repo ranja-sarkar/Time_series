@@ -86,6 +86,9 @@ Outliers in time-series data which are deviations from 'normal' called anomalies
 
 https://www.kaggle.com/code/ranja7/anomaly-detection-in-timeseries-isolation-forest
 
+One can also use PROPHET (by Meta) for anomaly detection and forecasting:
+https://facebook.github.io/prophet/docs/outliers.html
+
 **Conformal prediction over time**
 
 Conformal anomaly detection in timeseries: 
@@ -99,11 +102,7 @@ Conformal Prediction: https://github.com/deel-ai/puncc
 Conformal Regression & Classification:  https://github.com/deel-ai/puncc/blob/main/docs/puncc_intro.ipynb
 
 
-One can also use the FACEBOOK/META developed package PROPHET for anomaly detection and forecasting:
-https://facebook.github.io/prophet/docs/outliers.html
-
-Another library (by Salesforce) suited for forecasting and anomaly detection is merlion: https://github.com/salesforce/Merlion
-
+**The Salesforce library for anomaly detection & forecasting:** https://github.com/salesforce/Merlion
 
 <img width="503" alt="1" src="https://github.com/user-attachments/assets/e076da9d-425e-4a21-b547-abe10982e484">
 
