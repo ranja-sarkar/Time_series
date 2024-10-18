@@ -91,9 +91,7 @@ https://facebook.github.io/prophet/docs/outliers.html
 
 **Conformal prediction over time**
 
-Conformal anomaly detection in timeseries: 
-
-Demo: https://colab.research.google.com/drive/1iP36nrvTge18kdNZPOXjn5nje8SMj-bk?usp=sharing#scrollTo=Z0oMmL7djROr%2F
+Conformal anomaly detection in timeseries (demo) example: https://colab.research.google.com/drive/1iP36nrvTge18kdNZPOXjn5nje8SMj-bk?usp=sharing#scrollTo=Z0oMmL7djROr%2F
 
 Details about conformal anomaly detection: https://deel-ai.github.io/puncc/anomaly_detection.html
 
