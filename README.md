@@ -86,11 +86,13 @@ Outliers in time-series data which are deviations from 'normal' called anomalies
 
 https://www.kaggle.com/code/ranja7/anomaly-detection-in-timeseries-isolation-forest
 
-Conformal anomaly detection in timeseries data: 
+**Conformal prediction over time**
 
-https://colab.research.google.com/drive/1iP36nrvTge18kdNZPOXjn5nje8SMj-bk?usp=sharing#scrollTo=Z0oMmL7djROr%2F
+Conformal anomaly detection in timeseries: 
 
-**Find details about conformal anomaly detection here:**  https://deel-ai.github.io/puncc/anomaly_detection.html
+Demo: https://colab.research.google.com/drive/1iP36nrvTge18kdNZPOXjn5nje8SMj-bk?usp=sharing#scrollTo=Z0oMmL7djROr%2F
+
+Details about conformal anomaly detection: https://deel-ai.github.io/puncc/anomaly_detection.html
 
 Conformal Prediction: https://github.com/deel-ai/
 
