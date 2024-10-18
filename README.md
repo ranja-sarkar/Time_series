@@ -94,7 +94,7 @@ Demo: https://colab.research.google.com/drive/1iP36nrvTge18kdNZPOXjn5nje8SMj-bk?
 
 Details about conformal anomaly detection: https://deel-ai.github.io/puncc/anomaly_detection.html
 
-Conformal Prediction: https://github.com/deel-ai/
+Conformal Prediction: https://github.com/deel-ai/puncc
 
 Conformal Regression & Classification:  https://github.com/deel-ai/puncc/blob/main/docs/puncc_intro.ipynb
 
