@@ -127,6 +127,9 @@ From Amazon Science: https://www.amazon.science/blog/adapting-language-model-arc
 
 Demo: https://colab.research.google.com/drive/1M7J9zSAJ6x6w-76JzOBjft3CvmCGaELP?usp=sharing
 
+Bayesian forecasting using statsmodels: https://github.com/ChadFulton/scipy2022-bayesian-time-series
+
+
 
 **Foundation Model for timeseries forecasting**
 
