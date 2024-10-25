@@ -61,13 +61,13 @@ Y(t) = Level + Trend + Seasonality + Noise
 Example: https://www.kaggle.com/code/ranja7/sarima-forecasts-auto-arima
 
 
-**Darts** by **Unit8** is a python library for forecasting. 
+**Darts** is a python library by **Unit8** for forecasting. 
 
 Darts: https://unit8.com/resources/darts-time-series-made-easy-in-python/
 
 <img width="279" alt="image" src="https://github.com/ranja-sarkar/Time_series/assets/101544669/2702a5df-5000-4fb9-829c-dd1a1f6abdb7">
 
-**NIXTLA libraries used for forecasting**: Nixtla democratizes access to SOTA.
+**NIXTLA libraries for forecasting**: Nixtla democratizes access to SOTA.
 
 statsforecast: https://pypi.org/project/statsforecast/
 
@@ -84,7 +84,7 @@ Projects repo: https://github.com/Nixtla/
 <img width="881" alt="1" src="https://github.com/user-attachments/assets/58194ee9-aeef-4b72-b647-f4fdb4dfcafe">
 
 
-**Other libraries for time-series forecasting**
+**Other libraries for forecasting**
 
 sktime: https://www.sktime.net/en/latest/
 
