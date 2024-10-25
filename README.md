@@ -60,14 +60,31 @@ Y(t) = Level + Trend + Seasonality + Noise
 
 Example: https://www.kaggle.com/code/ranja7/sarima-forecasts-auto-arima
 
-**Other libraries used for forecasting**
+
+**Darts** by **Unit8** is a python library for forecasting. 
 
 Darts: https://unit8.com/resources/darts-time-series-made-easy-in-python/
 
 <img width="279" alt="image" src="https://github.com/ranja-sarkar/Time_series/assets/101544669/2702a5df-5000-4fb9-829c-dd1a1f6abdb7">
 
+**NIXTLA libraries used for forecasting**: Nixtla democratizes access to SOTA.
 
 statsforecast: https://pypi.org/project/statsforecast/
+
+statsforecast repo: https://github.com/Nixtla/statsforecast
+
+Open-source time-series ecosystem by **NIXTLA**: Fast and easy-to-use tools for forecasting & anomaly detection
+
+<img width="554" alt="0" src="https://github.com/user-attachments/assets/799983af-3d0f-4f4e-96d6-082f2891ef99">
+
+Projects repo: https://github.com/Nixtla/
+
+**Generative AI for time-series by NIXTLA**: TimeGPT
+
+<img width="881" alt="1" src="https://github.com/user-attachments/assets/58194ee9-aeef-4b72-b647-f4fdb4dfcafe">
+
+
+**Other libraries for time-series forecasting**
 
 sktime: https://www.sktime.net/en/latest/
 
@@ -137,6 +154,9 @@ Blog: https://blog.salesforceairesearch.com/moirai/
 
 Repo: https://github.com/SalesforceAIResearch/uni2ts
 
+TimeGPT by **NIXTLA**: https://github.com/Nixtla/nixtla
+
+TimeGPT is production ready pre-trained time-series foundation model for forecasting & anomaly detection.
 
 
 
