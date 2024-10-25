@@ -103,7 +103,7 @@ Outliers in time-series data which are deviations from 'normal' called anomalies
 
 https://www.kaggle.com/code/ranja7/anomaly-detection-in-timeseries-isolation-forest
 
-One can also use PROPHET (by Meta) for anomaly detection and forecasting:
+One can also use **PROPHET (by Meta)** for anomaly detection and forecasting:
 https://facebook.github.io/prophet/docs/outliers.html
 
 **Conformal prediction over time**
