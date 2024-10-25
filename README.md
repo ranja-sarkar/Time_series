@@ -117,7 +117,7 @@ Conformal Prediction: https://github.com/deel-ai/puncc
 Conformal Regression & Classification:  https://github.com/deel-ai/puncc/blob/main/docs/puncc_intro.ipynb
 
 
-**The Salesforce library for anomaly detection & forecasting:** https://github.com/salesforce/Merlion
+**Salesforce library** for anomaly detection & forecasting: https://github.com/salesforce/Merlion
 
 <img width="503" alt="1" src="https://github.com/user-attachments/assets/e076da9d-425e-4a21-b547-abe10982e484">
 
