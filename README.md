@@ -15,6 +15,11 @@ Some points to keep in mind while dealing with time-series data:
 3) Cross-validation (with sliding or expanding window as testing strategy) is tricky.
 <img width="491" alt="image" src="https://github.com/ranja-sarkar/timeseries/assets/101544669/0dcf3f84-cc5c-4b16-98a5-58c4f2cddc9e">
 
+Find the link to **time-series backtesting strategies** with the python library **skforecast** below. 
+
+<img width="298" alt="00" src="https://github.com/user-attachments/assets/b5c4fa17-105c-46f9-9706-6586d19eae20">
+
+
 In general, some time-series exhibit ill-behaved uncertainty. The forecast errors do not follow known distributions. Such information is useful for making judgmental decisions, but cannot be modeled and used for forecasting. Such an uncertainty is coconut uncertainty - of unknown unknowns leading to unpredictability. 
 
 <img width="334" alt="image" src="https://github.com/ranja-sarkar/timeseries/assets/101544669/05b48529-29cc-4166-95ee-795a20961b5a">
