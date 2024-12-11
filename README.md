@@ -88,7 +88,9 @@ Projects repo: https://github.com/Nixtla/
 
 sktime: https://www.sktime.net/en/latest/
 
-skforecast: https://skforecast.org/0.13.0/index.html
+skforecast: https://skforecast.org/0.14.0/index.html
+
+Backtesting strategies with skforecast: https://skforecast.org/0.14.0/user_guides/backtesting.html
 
 tslearn: https://github.com/tslearn-team/tslearn
 
