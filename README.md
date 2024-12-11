@@ -103,12 +103,13 @@ autoTS: https://github.com/winedarksea/AutoTS
 
 
 Please note this 'autoTS' is different from 'auto_ts' used here:
-https://colab.research.google.com/drive/1OgvVA1XLRle3gUBtu2tVcHmSTqR1-vP3?usp=sharing
+https://colab.research.google.com/drive/1OgvVA1XLRle3gUBtu2tVcHmSTqR1-vP3
 
 
-Outliers in time-series data which are deviations from 'normal' called anomalies can be point or collective (subsequent). 
+Outliers  (deviations from 'normal') in time-series data, also called anomalies can be point or collective (subsequent). 
 
-https://www.kaggle.com/code/ranja7/anomaly-detection-in-timeseries-isolation-forest
+https://colab.research.google.com/drive/1GNEkNqJp9sb8BrxOzY0uYK66OxtjCmE1
+
 
 One can also use **PROPHET (by Meta)** for anomaly detection and forecasting:
 https://facebook.github.io/prophet/docs/outliers.html
@@ -133,12 +134,11 @@ Conformal Regression & Classification:  https://github.com/deel-ai/puncc/blob/ma
 
 For multivariate time-series data, one can follow VAR (vector autoregression) approach. 
 
-Example: https://www.kaggle.com/code/ranja7/multivariate-timeseries-forecasting-var
+Example: 
 
 One can utilize deep learning algorithms like LSTM (with either tensorflow or pytorch) in multivariate time-series.
 
-Example: https://www.kaggle.com/code/ranja7/forecasting-with-lstm-tensorflow
-
+Example: 
 
 **Probabilistic modeling**
 
