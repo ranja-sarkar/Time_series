@@ -45,8 +45,9 @@ For more, refer to: https://www.datacamp.com/datalab/w/274bcd35-70c7-42e7-9433-f
 
 **Holt Winter's method** - there's seasonal smoothing constant (delta) and considers seasonal baseline which is a regularly recurring pattern (day, week, month, quarter etc.) and baseline rises and falls at regular intervals. Deviation of each season from the baseline’s long-term (annual) average is used for forecasts. 
 
-Smoothing models are for removal of noise. **Moving averages** are considered for these and they can be **simple**, **exponential**, and **cumulative**.
-Example: https://www.kaggle.com/code/ranja7/energy-consumption-forecast-baseline-models
+Smoothing models are for removal of noise. **Moving averages** are smoothing models, they can be **simple**, **exponential**, and **cumulative**.
+
+Example: 
 
 
 Simple Moving Average (SMA) uses a sliding window to take the average over a set number of time periods. It is an equally weighted mean of the previous data in this period.
@@ -149,7 +150,7 @@ Chronos is a family of pretrained time series forecasting models. Chronos models
 From Amazon Science: https://www.amazon.science/blog/adapting-language-model-architectures-for-time-series-forecasting
 
 
-Demo: https://colab.research.google.com/drive/1M7J9zSAJ6x6w-76JzOBjft3CvmCGaELP?usp=sharing
+Demo: https://colab.research.google.com/drive/1M7J9zSAJ6x6w-76JzOBjft3CvmCGaELP
 
 Bayesian forecasting using statsmodels: https://github.com/ChadFulton/scipy2022-bayesian-time-series
 
