@@ -63,7 +63,7 @@ A time series is additive when the 'trend' is linear (changes in mean and varian
 
 Y(t) = Level + Trend + Seasonality + Noise 
 
-Example: https://www.kaggle.com/code/ranja7/sarima-forecasts-auto-arima
+Example: 
 
 
 **Darts** is a python library by **Unit8** for forecasting. 
@@ -116,7 +116,7 @@ https://facebook.github.io/prophet/docs/outliers.html
 
 **Conformal prediction over time**
 
-Conformal anomaly detection in timeseries (demo) example: https://colab.research.google.com/drive/1iP36nrvTge18kdNZPOXjn5nje8SMj-bk?usp=sharing#scrollTo=Z0oMmL7djROr%2F
+Conformal anomaly detection in timeseries (demo) example: https://colab.research.google.com/drive/1iP36nrvTge18kdNZPOXjn5nje8SMj-bk
 
 Details about conformal anomaly detection: https://deel-ai.github.io/puncc/anomaly_detection.html
 
