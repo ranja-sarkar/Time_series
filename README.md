@@ -41,13 +41,15 @@ For more, refer to: https://www.datacamp.com/datalab/w/274bcd35-70c7-42e7-9433-f
 
 **Baseline Models:** Approaches to smoothing a time-series
 
-**Holt's method** - there're level smoothing constant (alpha) and trend constant (beta).
+1. **Holt's method** - there're level smoothing constant (alpha) and trend constant (beta).
 
-**Holt Winter's method** - there's seasonal smoothing constant (delta) and considers seasonal baseline which is a regularly recurring pattern (day, week, month, quarter etc.) and baseline rises and falls at regular intervals. Deviation of each season from the baseline’s long-term (annual) average is used for forecasts. 
+2. **Holt Winter's method** - there's seasonal smoothing constant (delta) and considers seasonal baseline which is a regularly recurring pattern (day, week, month, quarter etc.) and baseline rises and falls at regular intervals. Deviation of each season from the baseline’s long-term (annual) average is used for forecasts. 
 
-Smoothing models are for removal of noise. **Moving averages** are smoothing models, they can be **simple**, **exponential**, and **cumulative**.
+Smoothing models are for removal of noise. 
 
+3. **Moving averages** are smoothing models, they can be **simple**, **exponential**, and **cumulative**.
 
+Example code: https://colab.research.google.com/drive/1AwqNPjCbh7kXc1GsmYLOXJU8aC2Pa-vE
 
 Simple Moving Average (SMA) uses a sliding window to take the average over a set number of time periods. It is an equally weighted mean of the previous data in this period.
 Unlike SMA which drops the oldest observation as the new one gets added, cumulative moving average (CMA) considers all prior observations. 
