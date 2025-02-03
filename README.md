@@ -39,7 +39,7 @@ When time-series is treated as a signal, fast Fourier transform (FFT) is typical
 For more, refer to: https://www.datacamp.com/datalab/w/274bcd35-70c7-42e7-9433-f967c5e3beb8#basic-components-of-a-fourier-term
 
 
-**Approaches to smoothing a time-series: Baseline models**
+**Baseline Models:** Approaches to smoothing a time-series
 
 **Holt's method** - there're level smoothing constant (alpha) and trend constant (beta).
 
@@ -47,7 +47,6 @@ For more, refer to: https://www.datacamp.com/datalab/w/274bcd35-70c7-42e7-9433-f
 
 Smoothing models are for removal of noise. **Moving averages** are smoothing models, they can be **simple**, **exponential**, and **cumulative**.
 
-Example: 
 
 
 Simple Moving Average (SMA) uses a sliding window to take the average over a set number of time periods. It is an equally weighted mean of the previous data in this period.
