@@ -140,7 +140,7 @@ Example:
 
 One can utilize deep learning algorithms like LSTM (with either tensorflow or pytorch) in multivariate time-series.
 
-Example: 
+LSTM with tensorflow: https://colab.research.google.com/drive/1B4OR2rHNjqOI6yKscouiik970_1OzeWf
 
 **Probabilistic modeling**
 
@@ -151,7 +151,7 @@ Chronos is a family of pretrained time series forecasting models. Chronos models
 From Amazon Science: https://www.amazon.science/blog/adapting-language-model-architectures-for-time-series-forecasting
 
 
-Demo: https://colab.research.google.com/drive/1M7J9zSAJ6x6w-76JzOBjft3CvmCGaELP
+Gluonts demo: https://colab.research.google.com/drive/1M7J9zSAJ6x6w-76JzOBjft3CvmCGaELP
 
 Bayesian forecasting using statsmodels: https://github.com/ChadFulton/scipy2022-bayesian-time-series
 
