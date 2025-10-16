@@ -62,7 +62,6 @@ A time series is additive when the 'trend' is linear (changes in mean and varian
 
 Y(t) = Level + Trend + Seasonality + Noise 
 
-Example: 
 
 
 **Darts** is a python library by **Unit8** for forecasting. 
@@ -131,7 +130,6 @@ Conformal Regression & Classification:  https://github.com/deel-ai/puncc/blob/ma
 
 For multivariate time-series data, one can follow VAR (vector autoregression) approach. 
 
-Example: 
 
 One can utilize deep learning algorithms like LSTM (with either tensorflow or pytorch) in multivariate time-series.
 
