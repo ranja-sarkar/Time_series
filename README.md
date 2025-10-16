@@ -92,9 +92,9 @@ Projects repo: https://github.com/Nixtla/
 
 sktime: https://www.sktime.net/en/latest/
 
-skforecast: https://skforecast.org/0.14.0/index.html
+📌 skforecast: https://skforecast.org/0.14.0/index.html
 
-Backtesting strategies with skforecast: https://skforecast.org/0.14.0/user_guides/backtesting.html
+📌 Backtesting strategies with skforecast: https://skforecast.org/0.14.0/user_guides/backtesting.html
 
 tslearn: https://github.com/tslearn-team/tslearn
 
@@ -113,13 +113,11 @@ https://colab.research.google.com/drive/1GNEkNqJp9sb8BrxOzY0uYK66OxtjCmE1
 One can also use **PROPHET (by Meta)** for anomaly detection and forecasting:
 https://facebook.github.io/prophet/docs/outliers.html
 
-**Conformal prediction over time**
+📌📌 **Conformal prediction over time**
 
 Conformal anomaly detection in timeseries (demo) example: https://colab.research.google.com/drive/1iP36nrvTge18kdNZPOXjn5nje8SMj-bk
 
-Details about conformal anomaly detection: https://deel-ai.github.io/puncc/anomaly_detection.html
-
-Conformal Prediction: https://github.com/deel-ai/puncc
+📌 Conformal Prediction: https://github.com/deel-ai/puncc
 
 Conformal Regression & Classification:  https://github.com/deel-ai/puncc/blob/main/docs/puncc_intro.ipynb
 
