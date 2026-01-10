@@ -10,10 +10,17 @@ Time-series data can be continuous → ordinary differential equations (ODEs) an
 
 If we were to say that the timestamp is our feature and the value at that time is our dependent variable, we have a regression problem. The observed pattern in time-series data is the level - it’s the mean value over a specific period. The behavioral patterns in the data yield what are called components of time-series. 
 
-<img width="598" alt="0" src="https://github.com/user-attachments/assets/adc097ef-5bef-4730-95ff-028a0bff3613">
-
-
 # Time-series components
+
+1. **Trend** → Persistent, long-term behavior (linear or non-linear)
+
+2. **Seasonality** → Regular, periodic behavior within a year. A Fourier transform of time-series helps detect seasonality in the data, basically identifies the frequency peaks and corresponding amplitudes of the time-series signal. 
+
+3. **Cyclicity** → Repeated or recurring behavior over more than a year
+
+4. **Residual** → Erratic or irregular behavior (noise). The randomness of residual makes it a ‘white noise’ (contains all frequencies). The white noise does not influence the mean value of time-series. 
+
+# 
 
 Heteroscedasticity happens when the standard errors of a variable, monitored over a specific amount of time are non-constant. Conditional heteroscedasticity identifies non-constant volatility (degree of variation of series over time) when future periods of high & low volatility cannot be identified. Unconditional heteroscedasticity is used when future high & low volatility periods can be identified.
 
@@ -22,6 +29,7 @@ Some points to keep in mind while dealing with time-series data:
 1) The uncertainty of forecast is just as important as the (point) forecast itself.
 2) Model serving (deploying & scoring) is challenging.
 3) Cross-validation (with sliding or expanding window as testing strategy) is tricky.
+   
 <img width="491" alt="image" src="https://github.com/ranja-sarkar/timeseries/assets/101544669/0dcf3f84-cc5c-4b16-98a5-58c4f2cddc9e">
 
 Find the link to **time-series backtesting strategies** with the python library **skforecast** below. 
