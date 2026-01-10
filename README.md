@@ -1,3 +1,5 @@
+Forecast of the future using temporal behavior of data need uncertainty quantification, so we stay aware of the level of our confidence in the forecasts or point estimates.
+
 
 
 <img width="598" alt="0" src="https://github.com/user-attachments/assets/adc097ef-5bef-4730-95ff-028a0bff3613">
