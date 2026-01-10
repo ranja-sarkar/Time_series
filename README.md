@@ -6,6 +6,7 @@ Time-series data can be continuous → ordinary differential equations (ODEs) an
 
 ![tt](https://github.com/user-attachments/assets/45d93530-4c6e-4819-b430-d05d175aaa5a)
 
+If we were to say that the timestamp is our feature and the value at that time is our dependent variable, we have a regression problem. 
 
 <img width="598" alt="0" src="https://github.com/user-attachments/assets/adc097ef-5bef-4730-95ff-028a0bff3613">
 
