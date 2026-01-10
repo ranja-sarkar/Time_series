@@ -1,15 +1,19 @@
-Forecast of the future using temporal behavior of data need uncertainty quantification, so we stay aware of the level of our confidence in the forecasts or point estimates.
+# Forecasting
 
-When information is transferred across time, often to discrete points in time, it is called forecasting. A time series is a set of data points (indexed in time), and is most commonly a sequence of successive equally spaced out points in time. 
+When information is transferred across time, often to discrete points in time, it is called forecasting. Forecast of the future using temporal behavior of data need uncertainty quantification, so we stay aware of the level of our confidence in the forecasts or point estimates.
+
+A time series is a set of data points (indexed in time), and is most commonly a sequence of successive equally spaced out points in time. 
 
 Time-series data can be continuous → ordinary differential equations (ODEs) and stochastic differential equations (SDEs) are continuous-time models. In the figure below, the horizon or period of forecast is 3 days and there'e 80% confidence in the forecasts. 
 
 ![tt](https://github.com/user-attachments/assets/45d93530-4c6e-4819-b430-d05d175aaa5a)
 
-If we were to say that the timestamp is our feature and the value at that time is our dependent variable, we have a regression problem. 
+If we were to say that the timestamp is our feature and the value at that time is our dependent variable, we have a regression problem. The observed pattern in time-series data is the level - it’s the mean value over a specific period. The behavioral patterns in the data yield what are called components of time-series. 
 
 <img width="598" alt="0" src="https://github.com/user-attachments/assets/adc097ef-5bef-4730-95ff-028a0bff3613">
 
+
+# Time-series components
 
 Heteroscedasticity happens when the standard errors of a variable, monitored over a specific amount of time are non-constant. Conditional heteroscedasticity identifies non-constant volatility (degree of variation of series over time) when future periods of high & low volatility cannot be identified. Unconditional heteroscedasticity is used when future high & low volatility periods can be identified.
 
