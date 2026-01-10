@@ -1,5 +1,10 @@
 Forecast of the future using temporal behavior of data need uncertainty quantification, so we stay aware of the level of our confidence in the forecasts or point estimates.
 
+When information is transferred across time, often to discrete points in time, it is called forecasting. A time series is a set of data points (indexed in time), and is most commonly a sequence of successive equally spaced out points in time. 
+
+Time-series data can be continuous → ordinary differential equations (ODEs) and stochastic differential equations (SDEs) are continuous-time models. In the figure below, the horizon or period of forecast is 3 days and there'e 80% confidence in the forecasts. 
+
+![tt](https://github.com/user-attachments/assets/45d93530-4c6e-4819-b430-d05d175aaa5a)
 
 
 <img width="598" alt="0" src="https://github.com/user-attachments/assets/adc097ef-5bef-4730-95ff-028a0bff3613">
