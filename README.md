@@ -55,9 +55,6 @@ The human mind is hardwired to look for patterns everywhere and we must be vigil
 
 https://en.wikipedia.org/wiki/Random_walk
 
-When time-series is treated as a signal, fast Fourier transform (FFT) is typically used to decompose the series and comprehend the presence of seasonality in it. 
-For more, refer to: https://www.datacamp.com/datalab/w/274bcd35-70c7-42e7-9433-f967c5e3beb8#basic-components-of-a-fourier-term
-
 
 **Baseline Models:** Approaches to smoothing a time-series
 
