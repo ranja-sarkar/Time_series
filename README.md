@@ -75,7 +75,12 @@ Find the link to **time-series backtesting strategies** with the python library 
 
 <img width="298" alt="00" src="https://github.com/user-attachments/assets/b5c4fa17-105c-46f9-9706-6586d19eae20">
 
-# Confodence in forecasts
+# Confidence in forecasts
+
+There are several tools for quantification of uncertainty (in forecasts), each with their drawbacks like not having guaranteed coverage, conformal prediction however fills the gap. 
+
+![cp](https://github.com/user-attachments/assets/eadf0b62-3f0c-4a92-abfe-e37c06bfdd12)
+
 
 Some time-series exhibit ill-behaved uncertainty. The forecast errors do not follow known distributions. Such information is useful for making judgmental decisions, but cannot be modeled and used for forecasting. Such an uncertainty is coconut uncertainty - of unknown unknowns leading to unpredictability. 
 
