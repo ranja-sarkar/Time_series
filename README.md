@@ -75,12 +75,12 @@ Other time-series exhibit well-behaved uncertainty. The forecast errors follow k
 
 Forecast of level + trend is a baseline forecast. Baseline forecasts with the persistence model (using an observation at the previous time step to learn what will happen in the next time step)
 quickly indicate whether you can do significantly better. 
-The human mind is hardwired to look for patterns everywhere and we must be vigilant if we're developing elaborate models for random walk processes. A random walk having a step size that varies according to a normal distribution is used as a model for real-world time series data such as financial markets.
-
-https://en.wikipedia.org/wiki/Random_walk
+The human mind is hardwired to look for patterns everywhere and we must be vigilant if we're developing elaborate models for random walk processes. A [random walk](https://en.wikipedia.org/wiki/Random_walk) having a step size that varies according to a normal distribution is used as a model for real-world time series data such as financial markets.
 
 
-**Baseline Models:** Approaches to smoothing a time-series
+# Baseline Models
+
+Approaches to smoothing a time-series
 
 1. **Holt's method** - there're level smoothing constant (alpha) and trend constant (beta).
 
