@@ -64,7 +64,9 @@ Heteroscedasticity happens when the standard errors of a variable, monitored ove
 Some points to keep in mind while dealing with time-series data:
 
 1) The uncertainty of forecast is just as important as the (point) forecast itself.
+   
 2) Model serving (deploying & scoring) is challenging.
+
 3) Cross-validation (with sliding or expanding window as testing strategy) is tricky.
    
 <img width="491" alt="image" src="https://github.com/ranja-sarkar/timeseries/assets/101544669/0dcf3f84-cc5c-4b16-98a5-58c4f2cddc9e">
@@ -73,24 +75,29 @@ Find the link to **time-series backtesting strategies** with the python library 
 
 <img width="298" alt="00" src="https://github.com/user-attachments/assets/b5c4fa17-105c-46f9-9706-6586d19eae20">
 
+# Confodence in forecasts
 
-In general, some time-series exhibit ill-behaved uncertainty. The forecast errors do not follow known distributions. Such information is useful for making judgmental decisions, but cannot be modeled and used for forecasting. Such an uncertainty is coconut uncertainty - of unknown unknowns leading to unpredictability. 
+Some time-series exhibit ill-behaved uncertainty. The forecast errors do not follow known distributions. Such information is useful for making judgmental decisions, but cannot be modeled and used for forecasting. Such an uncertainty is coconut uncertainty - of unknown unknowns leading to unpredictability. 
 
 <img width="334" alt="image" src="https://github.com/ranja-sarkar/timeseries/assets/101544669/05b48529-29cc-4166-95ee-795a20961b5a">
 
 
-Other time-series exhibit well-behaved uncertainty. The forecast errors follow known distributions - Normal, Poisson etc.. Such information is useful for modeling and predictions bound within a certain range. This window of uncertainty is subway uncertainty - of known unknowns. 
+Other time-series exhibit well-behaved uncertainty. The forecast errors follow known distributions - normal, Poisson etc.. Such information is useful for modeling and predictions bound within a certain range. The window of uncertainty is subway uncertainty - of known unknowns. 
 
 <img width="341" alt="image" src="https://github.com/ranja-sarkar/timeseries/assets/101544669/a6c5417f-50e5-4bd8-aefc-18bab5809f8a">
 
-Forecast of level + trend is a baseline forecast. Baseline forecasts with the persistence model (using an observation at the previous time step to learn what will happen in the next time step)
-quickly indicate whether you can do significantly better. 
-The human mind is hardwired to look for patterns everywhere and we must be vigilant if we're developing elaborate models for random walk processes. A [random walk](https://en.wikipedia.org/wiki/Random_walk) having a step size that varies according to a normal distribution is used as a model for real-world time series data such as financial markets.
 
+Subway uncertainty is the uncertainty of known unknowns; events can be predicted assuming a window of uncertainty. It is like, even on a worst day trying to navigate through rush hour trains, your subway voyage almost definitely won't take you more than around 30 minutes plus planned time. 
+
+Coconut uncertainty is an allusion to a coconut unexpectedly falling on one’s head while on a beach. It is the uncertainty of unknown unknowns due to ill-behaved forecast errors; events that could never be predicted no matter how hard we tried.
 
 # Baseline Models
 
-Approaches to smoothing a time-series
+Forecast of level + trend is a baseline forecast. Baseline forecasts with the persistence model (using an observation at the previous time step to learn what will happen in the next time step) quickly indicate whether you can do significantly better. Baseline forecasts quickly indicate whether you can have significantly better forecasts by utilizing advanced models. If there’s no recognizable pattern, you’re probably dealing with a random walk process (future is independent of past). 
+
+The human mind is hardwired to look for patterns everywhere and we must be vigilant if we're developing elaborate models for random walk processes. A [random walk](https://en.wikipedia.org/wiki/Random_walk) having a step size that varies according to a normal distribution is used as a model for real-world time-series data such as financial markets.
+
+Approaches to smoothing a time-series:
 
 1. **Holt's method** - there're level smoothing constant (alpha) and trend constant (beta).
 
