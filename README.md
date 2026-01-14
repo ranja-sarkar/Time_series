@@ -22,8 +22,11 @@ If we were to say that the timestamp is our feature and the value at that time i
 
 ![patt](https://github.com/user-attachments/assets/e6fb229b-beff-412c-acbb-bc3c82434e0f)
 
+Then there is **autocorrelation** - value at a certain point in time depends on prior values. An autoregressive (AR) characteristic of time-series, the sequential dependency of observations usually introduces structured errors that are correlated temporally on previous errors or observation(s).
 
-# 
+The autocorrelation, also called the AR component models changes in the time-series that are not explained by trend or seasonality.  
+
+---
 
 Heteroscedasticity happens when the standard errors of a variable, monitored over a specific amount of time are non-constant. Conditional heteroscedasticity identifies non-constant volatility (degree of variation of series over time) when future periods of high & low volatility cannot be identified. Unconditional heteroscedasticity is used when future high & low volatility periods can be identified.
 
