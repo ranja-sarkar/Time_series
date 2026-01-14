@@ -180,10 +180,13 @@ Conformal Regression & Classification:  https://github.com/deel-ai/puncc/blob/ma
 
 For multivariate time-series data, one can follow VAR (vector autoregression) approach. 
 
+One can develop dynamic models to investigate short-term and long-term causal effects. Short-term causality might be observed through Granger causality, while long-term causality is typically studied using techniques like ECM or VECM. 
 
-One can utilize deep learning algorithms like LSTM (with either tensorflow or pytorch) in multivariate time-series.
+<img width="598" height="326" alt="latt" src="https://github.com/user-attachments/assets/85f89afc-d150-4e29-b51c-df5a5a7f1780" />
 
-LSTM with tensorflow: https://colab.research.google.com/drive/1B4OR2rHNjqOI6yKscouiik970_1OzeWf
+
+One can utilize deep learning algorithms like LSTM (with either [tensorflow](https://colab.research.google.com/drive/1B4OR2rHNjqOI6yKscouiik970_1OzeWf) or pytorch) in multivariate time-series.
+
 
 # Probabilistic modeling with time-series
 
