@@ -44,7 +44,13 @@ For a non-stationary time series, there are two approaches to model the trend an
 
 In detrending, use a regression model, slope of the linear regression fit is the increase/decrease of y-value with x (time). Detrending only works for linear trends. 
 
+<img width="568" height="190" alt="ts1" src="https://github.com/user-attachments/assets/f85b9ea2-79ec-42cb-ae8c-f5bc197e530a" />
+
+
 In differencing, use difference between two consecutive values in time. Differencing can deal with both changes in the mean (first-order difference) as well as changes in the mean movement (second-order difference). 
+
+<img width="556" height="188" alt="ts2" src="https://github.com/user-attachments/assets/eb60b373-e762-4520-b5aa-58ce884e4ab8" />
+
 
 ---
 
