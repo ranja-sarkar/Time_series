@@ -46,11 +46,15 @@ In detrending, use a regression model, slope of the linear regression fit is the
 
 <img width="568" height="190" alt="ts1" src="https://github.com/user-attachments/assets/f85b9ea2-79ec-42cb-ae8c-f5bc197e530a" />
 
+In the figure above showing ACF and PACF, there’s a strong residual seasonal effect upon detrending. The time-series has not become fully stationary.
 
 In differencing, use difference between two consecutive values in time. Differencing can deal with both changes in the mean (first-order difference) as well as changes in the mean movement (second-order difference). 
 
 <img width="556" height="188" alt="ts2" src="https://github.com/user-attachments/assets/eb60b373-e762-4520-b5aa-58ce884e4ab8" />
 
+In the figure above, there is no correlation between the time steps. Stationarity has been achieved by differencing.
+
+📌 Partial autocorrelation is the autocorrelation without the carry-over (correlation between non-consecutive points in the time-series).
 
 ---
 
