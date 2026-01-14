@@ -26,6 +26,16 @@ Then there is **autocorrelation** - value at a certain point in time depends on 
 
 The autocorrelation, also called the AR component models changes in the time-series that are not explained by trend or seasonality.  
 
+# Forecasting Approaches
+
+**ARIMA** handles data with trend.
+**SARIMA** handles data with a seasonal component. 
+The trend, seasonality and noise in a time series are explained by model parameter set (p,d,q), also called the order. The auto-regressive parameter is p; d is difference parameter and q is the moving average parameter. Trend is the long-term change in the mean level of observations. Seasonality is the pattern that’s periodically repeated, and noise is the random variation in the data. 
+
+A time series is additive when the 'trend' is linear (changes in mean and variance are at linear rate) and 'seasonality' is constant in time. A time series is multiplicative when the 'trend' is non-linear. A stationary time series has constant mean over time and does not exhibit a trend. Having no trend means identically distributed random variables.  
+
+Y(t) = Level + Trend + Seasonality + Noise 
+
 ---
 
 Heteroscedasticity happens when the standard errors of a variable, monitored over a specific amount of time are non-constant. Conditional heteroscedasticity identifies non-constant volatility (degree of variation of series over time) when future periods of high & low volatility cannot be identified. Unconditional heteroscedasticity is used when future high & low volatility periods can be identified.
@@ -75,17 +85,7 @@ Simple Moving Average (SMA) uses a sliding window to take the average over a set
 Unlike SMA which drops the oldest observation as the new one gets added, cumulative moving average (CMA) considers all prior observations. 
 Unlike SMA and CMA, exponential moving average (EMA) gives more weight to the recent prices as a result of which, EMA can better capture the movement of the trend. Exponential smoothing defines trend as the difference between observed values in consecutive records in time.
 
-**Forecasting approach**
-
-**ARIMA** handles data with trend.
-**SARIMA** handles data with a seasonal component. 
-The trend, seasonality and noise in a time series are explained by model parameter set (p,d,q), also called the order. The auto-regressive parameter is p; d is difference parameter and q is the moving average parameter. Trend is the long-term change in the mean level of observations. Seasonality is the pattern that’s periodically repeated, and noise is the random variation in the data. 
-
-A time series is additive when the 'trend' is linear (changes in mean and variance are at linear rate) and 'seasonality' is constant in time. A time series is multiplicative when the 'trend' is non-linear. A stationary time series has constant mean over time and does not exhibit a trend. Having no trend means identically distributed random variables.  
-
-Y(t) = Level + Trend + Seasonality + Noise 
-
-
+# Forecasting Libraries
 
 **Darts** is a python library by **Unit8** for forecasting. 
 
