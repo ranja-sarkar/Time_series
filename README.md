@@ -88,9 +88,8 @@ Approaches to smoothing a time-series
 
 Smoothing models are for removal of noise. 
 
-3. **Moving averages** are smoothing models, they can be **simple**, **exponential**, and **cumulative**.
+3. **Moving averages** are smoothing models, they can be **simple**, **exponential**, and **cumulative**. Moving average models are used to model the effect of random fluctuations in the time-series. We can say the influence of random fluctuations is relatively small when the autocorrelation goes toward zero. 
 
-Example code: https://colab.research.google.com/drive/1AwqNPjCbh7kXc1GsmYLOXJU8aC2Pa-vE
 
 Simple Moving Average (SMA) uses a sliding window to take the average over a set number of time periods. It is an equally weighted mean of the previous data in this period.
 Unlike SMA which drops the oldest observation as the new one gets added, cumulative moving average (CMA) considers all prior observations. 
