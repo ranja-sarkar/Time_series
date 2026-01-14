@@ -169,7 +169,7 @@ Conformal Regression & Classification:  https://github.com/deel-ai/puncc/blob/ma
 <img width="503" alt="1" src="https://github.com/user-attachments/assets/e076da9d-425e-4a21-b547-abe10982e484">
 
 
-**Multivariate Time-series**
+# Multivariate time-series
 
 For multivariate time-series data, one can follow VAR (vector autoregression) approach. 
 
@@ -178,7 +178,7 @@ One can utilize deep learning algorithms like LSTM (with either tensorflow or py
 
 LSTM with tensorflow: https://colab.research.google.com/drive/1B4OR2rHNjqOI6yKscouiik970_1OzeWf
 
-**Probabilistic modeling**
+# Probabilistic modeling with time-series
 
 For probabilistic time-series modeling, one can use **AutoGluon**: https://github.com/awslabs/gluonts
 
@@ -193,7 +193,7 @@ Bayesian forecasting using statsmodels: https://github.com/ChadFulton/scipy2022-
 
 
 
-**Foundation Model for timeseries forecasting**
+# Foundation Model for forecasting
 
 Blog: https://blog.salesforceairesearch.com/moirai/
 
