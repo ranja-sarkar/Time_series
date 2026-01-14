@@ -40,6 +40,12 @@ Y(t) = Level + Trend + Seasonality + Noise
 
 Stationarity means that the mean and variance are constant and do not change over time. The trend is how the mean value of a time-series changes over time, the seasonality is how the mean value of a time-series changes over seasons in a year. 
 
+For a non-stationary time series, there are two approaches to model the trend and seasonality - detrending, differencing.
+
+In detrending, use a regression model, slope of the linear regression fit is the increase/decrease of y-value with x (time). Detrending only works for linear trends. 
+
+In differencing, use difference between two consecutive values in time. Differencing can deal with both changes in the mean (first-order difference) as well as changes in the mean movement (second-order difference). 
+
 ---
 
 
