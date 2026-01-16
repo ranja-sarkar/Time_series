@@ -61,13 +61,13 @@ In the figure above, there is no correlation between the time steps. Stationarit
 ---
 
 
-Heteroscedasticity happens when the standard errors of a variable, monitored over a specific amount of time are non-constant. 
+Heteroscedasticity happens when the standard errors of a variable, monitored over a specific period of time are non-constant. 
 
 📌 Conditional heteroscedasticity identifies non-constant volatility (degree of variation of series over time) when future periods of high & low volatility cannot be identified. 
 
 📌 Unconditional heteroscedasticity is used when future high & low volatility periods can be identified.
 
-📌 About time-series data ⤵️
+About time-series data ⤵️
 
 1) The uncertainty of forecast is just as important as the (point) forecast itself.
    
@@ -171,7 +171,7 @@ One can utilize deep learning algorithms like LSTM (with either [tensorflow](htt
 
 # Probabilistic modeling with time-series
 
-For probabilistic time-series modeling, one can use AutoGluon's [gluonts](https://colab.research.google.com/drive/1M7J9zSAJ6x6w-76JzOBjft3CvmCGaELP) from AWS labs](https://github.com/awslabs/gluonts).
+For probabilistic time-series modeling, one can use AutoGluon's [gluonts](https://colab.research.google.com/drive/1M7J9zSAJ6x6w-76JzOBjft3CvmCGaELP) from [AWS labs](https://github.com/awslabs/gluonts).
 
 [Chronos](https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-chronos.html) is a family of pretrained time series forecasting models. Chronos models are based on language model architectures, and work by quantizing time-series into buckets which are treated as tokens.
 
