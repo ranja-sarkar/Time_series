@@ -115,9 +115,10 @@ Smoothing models are for removal of noise.
 3. **Moving averages** are smoothing models, they can be **simple**, **exponential**, and **cumulative**. Moving average models are used to model the effect of random fluctuations in the time-series. We can say the influence of random fluctuations is relatively small when the autocorrelation goes toward zero. 
 
 
-Simple Moving Average (SMA) uses a sliding window to take the average over a set number of time periods. It is an equally weighted mean of the previous data in this period.
+[Simple Moving Average (SMA)](https://github.com/ranja-sarkar/Time_series/blob/51c1b10d2dc546caba8cbd5a7e5f2cfae92feccd/baseline_models/Baseline_models_SMA_%26_EMA.ipynb) uses a sliding window to take the average over a set number of time periods. It is an equally weighted mean of the previous data in this period.
 Unlike SMA which drops the oldest observation as the new one gets added, cumulative moving average (CMA) considers all prior observations. 
-Unlike SMA and CMA, exponential moving average (EMA) gives more weight to the recent prices as a result of which, EMA can better capture the movement of the trend. Exponential smoothing defines trend as the difference between observed values in consecutive records in time.
+
+[Exponential moving average (EMA)](https://github.com/ranja-sarkar/Time_series/blob/51c1b10d2dc546caba8cbd5a7e5f2cfae92feccd/baseline_models/Baseline_models_SMA_%26_EMA.ipynb) gives more weight to the recent prices as a result of which, EMA can better capture the movement of the trend. Exponential smoothing defines trend as the difference between observed values in consecutive records in time.
 
 # Forecasting Libraries
 
