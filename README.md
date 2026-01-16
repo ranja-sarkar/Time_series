@@ -119,9 +119,7 @@ Unlike SMA and CMA, exponential moving average (EMA) gives more weight to the re
 
 # Forecasting Libraries
 
-**Darts** is a python library by **Unit8** for forecasting. 
-
-Darts: https://unit8.com/resources/darts-time-series-made-easy-in-python/
+📌 [Darts (by Unit8)](https://unit8.com/resources/darts-time-series-made-easy-in-python/)
 
 <img width="279" alt="image" src="https://github.com/ranja-sarkar/Time_series/assets/101544669/2702a5df-5000-4fb9-829c-dd1a1f6abdb7">
 
