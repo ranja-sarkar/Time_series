@@ -125,16 +125,7 @@ Darts: https://unit8.com/resources/darts-time-series-made-easy-in-python/
 
 <img width="279" alt="image" src="https://github.com/ranja-sarkar/Time_series/assets/101544669/2702a5df-5000-4fb9-829c-dd1a1f6abdb7">
 
-**NIXTLA libraries for forecasting**: Nixtla democratizes access to SOTA.
-
-statsforecast: https://pypi.org/project/statsforecast/
-
-statsforecast repo: https://github.com/Nixtla/statsforecast
-
-Open-source time-series ecosystem by **NIXTLA**: Fast and easy-to-use tools for forecasting & anomaly detection
-
-<img width="554" alt="0" src="https://github.com/user-attachments/assets/799983af-3d0f-4f4e-96d6-082f2891ef99">
-
+📌 [statsforecast](https://github.com/Nixtla/statsforecast)
 
 📌 [sktime](https://www.sktime.net/en/latest/)
 
