@@ -171,7 +171,7 @@ One can utilize deep learning algorithms like LSTM (with either [tensorflow](htt
 
 # Probabilistic modeling with time-series
 
-For probabilistic time-series modeling, one can use AutoGluon's [gluonts](https://github.com/awslabs/gluonts) from AWS labs.
+For probabilistic time-series modeling, one can use AutoGluon's [gluonts](https://colab.research.google.com/drive/1M7J9zSAJ6x6w-76JzOBjft3CvmCGaELP) from AWS labs](https://github.com/awslabs/gluonts).
 
 [Chronos](https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-chronos.html) is a family of pretrained time series forecasting models. Chronos models are based on language model architectures, and work by quantizing time-series into buckets which are treated as tokens.
 
