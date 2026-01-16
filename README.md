@@ -135,13 +135,6 @@ Open-source time-series ecosystem by **NIXTLA**: Fast and easy-to-use tools for 
 
 <img width="554" alt="0" src="https://github.com/user-attachments/assets/799983af-3d0f-4f4e-96d6-082f2891ef99">
 
-Projects repo: https://github.com/Nixtla/
-
-**Generative AI for time-series by NIXTLA**: TimeGPT
-
-<img width="881" alt="1" src="https://github.com/user-attachments/assets/58194ee9-aeef-4b72-b647-f4fdb4dfcafe">
-
-
 
 📌 [sktime](https://www.sktime.net/en/latest/)
 
