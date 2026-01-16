@@ -177,11 +177,11 @@ One can utilize deep learning algorithms like LSTM (with either [tensorflow](htt
 
 # Probabilistic modeling with time-series
 
-For probabilistic time-series modeling, one can use [AutoGluon](https://github.com/awslabs/gluonts)
+For probabilistic time-series modeling, one can use AutoGluon's [gluonts](https://github.com/awslabs/gluonts) from AWS labs.
 
 [Chronos](https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-chronos.html) is a family of pretrained time series forecasting models. Chronos models are based on language model architectures, and work by quantizing time-series into buckets which are treated as tokens.
 
-[Here's](https://www.amazon.science/blog/adapting-language-model-architectures-for-time-series-forecasting) how to adapt to LM architectures for forecasting from Amazon Science.
+[Here's](https://www.amazon.science/blog/adapting-language-model-architectures-for-time-series-forecasting) how to adapt to LM architectures for forecasting from Amazon Science!!
 
 And there's also [Bayesian forecasting](https://github.com/ChadFulton/scipy2022-bayesian-time-series) using statsmodels.
 
