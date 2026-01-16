@@ -28,7 +28,9 @@ The autocorrelation, also called the AR component models changes in the time-ser
 
 # Forecasting Approaches
 
-**ARIMA** (auto-regressive integrated moving average) handles data with trend. **SARIMA** handles data with a seasonal component. 
+**ARIMA** (auto-regressive integrated moving average) handles data with trend. 
+
+[SARIMA](https://gist.github.com/ranja-sarkar/12ce71ee40b228e5c3b47874cde42bed) handles data with a seasonal component. 
 
 The trend, seasonality and noise in a time series are explained by model parameter set (p,d,q), also called the order. The auto-regressive parameter is p; d is difference parameter and q is the moving average parameter. Trend is the long-term change in the mean level of observations. Seasonality is the pattern that’s periodically repeated, and noise is the random variation in the data. 
 
@@ -59,9 +61,13 @@ In the figure above, there is no correlation between the time steps. Stationarit
 ---
 
 
-Heteroscedasticity happens when the standard errors of a variable, monitored over a specific amount of time are non-constant. Conditional heteroscedasticity identifies non-constant volatility (degree of variation of series over time) when future periods of high & low volatility cannot be identified. Unconditional heteroscedasticity is used when future high & low volatility periods can be identified.
+Heteroscedasticity happens when the standard errors of a variable, monitored over a specific amount of time are non-constant. 
 
-Some points to keep in mind while dealing with time-series data:
+📌 Conditional heteroscedasticity identifies non-constant volatility (degree of variation of series over time) when future periods of high & low volatility cannot be identified. 
+
+📌 Unconditional heteroscedasticity is used when future high & low volatility periods can be identified.
+
+📌 About time-series data ⤵️
 
 1) The uncertainty of forecast is just as important as the (point) forecast itself.
    
