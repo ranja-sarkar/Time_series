@@ -190,33 +190,25 @@ One can develop dynamic models to investigate short-term and long-term causal ef
 <img width="598" height="326" alt="latt" src="https://github.com/user-attachments/assets/85f89afc-d150-4e29-b51c-df5a5a7f1780" />
 
 
-One can utilize deep learning algorithms like LSTM (with either [tensorflow](https://colab.research.google.com/drive/1B4OR2rHNjqOI6yKscouiik970_1OzeWf) or pytorch) in multivariate time-series.
+One can utilize deep learning algorithms like LSTM (with either [tensorflow](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/23ac98dc7fc119547fb094757165395fe061fff4/_posts/codes/LSTM_with_Tensorflow.ipynb) or pytorch) in multivariate time-series.
 
 
 # Probabilistic modeling with time-series
 
-For probabilistic time-series modeling, one can use **AutoGluon**: https://github.com/awslabs/gluonts
+For probabilistic time-series modeling, one can use [AutoGluon](https://github.com/awslabs/gluonts)
 
-Chronos is a family of pretrained time series forecasting models. Chronos models are based on language model architectures, and work by quantizing time series into buckets which are treated as tokens: https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-chronos.html
+[Chronos](https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-chronos.html) is a family of pretrained time series forecasting models. Chronos models are based on language model architectures, and work by quantizing time-series into buckets which are treated as tokens.
 
-From Amazon Science: https://www.amazon.science/blog/adapting-language-model-architectures-for-time-series-forecasting
+[Here's](https://www.amazon.science/blog/adapting-language-model-architectures-for-time-series-forecasting) how to adapt to LM architectures for forecasting from Amazon Science.
 
-
-Gluonts demo: https://colab.research.google.com/drive/1M7J9zSAJ6x6w-76JzOBjft3CvmCGaELP
-
-Bayesian forecasting using statsmodels: https://github.com/ChadFulton/scipy2022-bayesian-time-series
-
+And there's also [Bayesian forecasting](https://github.com/ChadFulton/scipy2022-bayesian-time-series) using statsmodels.
 
 
 # Foundation Model for forecasting
 
-Blog: https://blog.salesforceairesearch.com/moirai/
+[TimeGPT](https://github.com/Nixtla/nixtla) is production ready pre-trained time-series foundation model for forecasting & anomaly detection by [NIXTLA](https://www.nixtla.io/), which democratizes access to SOTA open-source tools as well as enterprise APIs for anomaly detection and forecasting.
 
-Repo: https://github.com/SalesforceAIResearch/uni2ts
 
-TimeGPT by **NIXTLA**: https://github.com/Nixtla/nixtla
-
-TimeGPT is production ready pre-trained time-series foundation model for forecasting & anomaly detection.
 
 
 
