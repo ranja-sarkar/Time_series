@@ -71,10 +71,6 @@ Some points to keep in mind while dealing with time-series data:
    
 <img width="491" alt="image" src="https://github.com/ranja-sarkar/timeseries/assets/101544669/0dcf3f84-cc5c-4b16-98a5-58c4f2cddc9e">
 
-Find the link to **time-series backtesting strategies** with the python library **skforecast** below. 
-
-<img width="298" alt="00" src="https://github.com/user-attachments/assets/b5c4fa17-105c-46f9-9706-6586d19eae20">
-
 # Confidence in forecasts
 
 There are several tools for quantification of uncertainty (in forecasts), each with their drawbacks like not having guaranteed coverage, conformal prediction however fills the gap. 
@@ -130,6 +126,9 @@ Unlike SMA and CMA, exponential moving average (EMA) gives more weight to the re
 📌 [skforecast](https://skforecast.org/0.14.0/index.html)
 
 skforecast has [backtesting strategies](https://skforecast.org/0.14.0/user_guides/backtesting.html).
+
+<img width="298" alt="00" src="https://github.com/user-attachments/assets/b5c4fa17-105c-46f9-9706-6586d19eae20">
+
 
 📌 [tslearn](https://github.com/tslearn-team/tslearn)
 
