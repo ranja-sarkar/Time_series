@@ -142,48 +142,37 @@ Projects repo: https://github.com/Nixtla/
 <img width="881" alt="1" src="https://github.com/user-attachments/assets/58194ee9-aeef-4b72-b647-f4fdb4dfcafe">
 
 
-**Other libraries for forecasting**
 
-sktime: https://www.sktime.net/en/latest/
+📌 [sktime](https://www.sktime.net/en/latest/)
 
-📌 skforecast: https://skforecast.org/0.14.0/index.html
+📌 [skforecast](https://skforecast.org/0.14.0/index.html)
 
-📌 Backtesting strategies with skforecast: https://skforecast.org/0.14.0/user_guides/backtesting.html
+skforecast has [backtesting strategies](https://skforecast.org/0.14.0/user_guides/backtesting.html).
 
-tslearn: https://github.com/tslearn-team/tslearn
+📌 [tslearn](https://github.com/tslearn-team/tslearn)
 
-autoTS: https://github.com/winedarksea/AutoTS
+📌 [autoTS](https://github.com/winedarksea/AutoTS)
 
-
-Please note this 'autoTS' is different from 'auto_ts' used here:
-https://colab.research.google.com/drive/1OgvVA1XLRle3gUBtu2tVcHmSTqR1-vP3
+Please note 'autoTS' is different from [auto_ts](https://colab.research.google.com/drive/1OgvVA1XLRle3gUBtu2tVcHmSTqR1-vP3).
 
 
-Outliers  (deviations from 'normal') in time-series data, also called anomalies can be point or collective (subsequent). 
-
-https://colab.research.google.com/drive/1GNEkNqJp9sb8BrxOzY0uYK66OxtjCmE1
+Outliers or anomalies in time-series data can be point or collective (subsequent). 
 
 
-One can also use **PROPHET (by Meta)** for anomaly detection and forecasting:
-https://facebook.github.io/prophet/docs/outliers.html
-
-📌📌 **Conformal prediction over time**
-
-Conformal anomaly detection in timeseries (demo) example: https://colab.research.google.com/drive/1iP36nrvTge18kdNZPOXjn5nje8SMj-bk
-
-📌 Conformal Prediction: https://github.com/deel-ai/puncc
-
-Conformal Regression & Classification:  https://github.com/deel-ai/puncc/blob/main/docs/puncc_intro.ipynb
+📌 [PROPHET (by Meta)](https://facebook.github.io/prophet/docs/outliers.html)
 
 
-**Salesforce library** for anomaly detection & forecasting: https://github.com/salesforce/Merlion
+📌 [puncc](https://github.com/deel-ai/puncc) for [conformal prediction](https://colab.research.google.com/drive/1iP36nrvTge18kdNZPOXjn5nje8SMj-bk)
+
+
+📌 [merlion (by Salesforce)](https://github.com/salesforce/Merlion)
 
 <img width="503" alt="1" src="https://github.com/user-attachments/assets/e076da9d-425e-4a21-b547-abe10982e484">
 
 
 # Multivariate time-series
 
-For multivariate time-series data, one can follow VAR (vector autoregression) approach. 
+For multivariate time-series data, one can follow VAR or [vector autoregression](https://gist.github.com/ranja-sarkar/6b79ae244ef31a6034324a3ca0de8c10) approach. 
 
 One can develop dynamic models to investigate short-term and long-term causal effects. Short-term causality might be observed through Granger causality, while long-term causality is typically studied using techniques like ECM or VECM. 
 
