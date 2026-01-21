@@ -18,7 +18,7 @@ If we were to say that the timestamp is our feature and the value at that time i
 
 3. **Cyclicity** → Repeated or recurring behavior over more than a year
 
-4. **Residual** → Erratic or irregular behavior (noise). The randomness of residual makes it a ‘white noise’ (contains all frequencies). The white noise does not influence the mean value of time-series.
+4. **Residual** → Erratic or irregular behavior (noise). The [randomness](https://gregorygundersen.com/blog/2019/02/01/clt/) of residual/noise makes it a ‘white noise’ (contains all frequencies). The white noise does not influence the mean value of time-series.
 
 ![patt](https://github.com/user-attachments/assets/e6fb229b-beff-412c-acbb-bc3c82434e0f)
 
