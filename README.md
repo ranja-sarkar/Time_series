@@ -83,6 +83,9 @@ The uncertainty determines our confidence in the forecasts. There are several to
 
 ![cp](https://github.com/user-attachments/assets/eadf0b62-3f0c-4a92-abfe-e37c06bfdd12)
 
+Read the [book](https://christophmolnar.com/books/conformal-prediction) by Chtistoph Molnar for guidance on quantifying the umcertainty Of machine learning models.
+
+---
 
 Some time-series exhibit ill-behaved uncertainty. The forecast errors do not follow known distributions. Such information is useful for making judgmental decisions, but cannot be modeled and used for forecasting. Such an uncertainty is coconut uncertainty - of unknown unknowns leading to unpredictability. 
 
