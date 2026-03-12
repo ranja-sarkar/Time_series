@@ -96,7 +96,19 @@ Other time-series exhibit well-behaved uncertainty. The forecast errors follow k
 
 Subway uncertainty is the uncertainty of known unknowns; events can be predicted assuming a window of uncertainty. It is like, even on a worst day trying to navigate through rush hour trains, your subway voyage almost definitely won't take you more than around 30 minutes plus planned time. 
 
-Coconut uncertainty is an allusion to a coconut unexpectedly falling on one’s head while on a beach. It is the uncertainty of unknown unknowns due to ill-behaved forecast errors; events that could never be predicted no matter how hard we tried.
+Coconut uncertainty is an allusion to a coconut unexpectedly falling on one’s head while on a beach. It is the uncertainty of unknown unknowns due to ill-behaved forecast errors; events that could never be predicted no matter how hard we tried. 
+
+---
+
+Prediction interval and confidence interval are often used in the same context, making it important to understand how they differ. The former is usually wider than the latter. The formulae explains why.
+
+<img width="151" height="54" alt="11" src="https://github.com/user-attachments/assets/13100c53-db0d-4bcc-81c8-e4d52ba379ac" />
+
+The standard error (se) of prediction is given by, 
+
+<img width="172" height="63" alt="22" src="https://github.com/user-attachments/assets/98c40df7-a0da-40e7-9849-caf6eebe873c" />
+
+A confidence interval is used to predict the mean response based on regression. A prediction interval is used to predict the future value based on regression. See this [example](https://github.com/ranja-sarkar/GD/blob/ce8462735bb3a83dd3ac9a622a7cf370a36bbd3e/regression_ols.ipynb) for more.
 
 # Baseline models
 
