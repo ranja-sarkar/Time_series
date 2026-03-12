@@ -100,11 +100,11 @@ Coconut uncertainty is an allusion to a coconut unexpectedly falling on one’s 
 
 ---
 
-Prediction interval and confidence interval are often used in the same context, making it important to understand how they differ. The former is usually wider than the latter. The formulae explains why.
+Prediction interval and confidence interval are often used in the same context, making it important to understand how they differ. The former is usually wider than the latter. The formulae for sample size *n* explains why.
 
 <img width="151" height="54" alt="11" src="https://github.com/user-attachments/assets/13100c53-db0d-4bcc-81c8-e4d52ba379ac" />
 
-The standard error (se) of prediction is given by, 
+where, *y* is the dependent variable or response and *x* the independent variable. The standard error (se) of prediction is given by, 
 
 <img width="172" height="63" alt="22" src="https://github.com/user-attachments/assets/98c40df7-a0da-40e7-9849-caf6eebe873c" />
 
