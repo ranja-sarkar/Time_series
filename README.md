@@ -4,7 +4,7 @@ When information is transferred across time, often to discrete points in time, i
 
 A time series is a set of data points (indexed in time), and is most commonly a sequence of successive equally spaced out points in time. 
 
-Time-series data can be continuous → ordinary differential equations (ODEs) and stochastic differential equations (SDEs) are continuous-time models. In the figure below, the horizon or period of forecast is 3 days and there'e 80% confidence in the forecasts. 
+Time-series data can be continuous → ordinary differential equations (ODEs) and stochastic differential equations (SDEs) are continuous-time models. In the figure below, the horizon or period of forecast is 3 days and we've 80% **confidence in the forecasts**. 
 
 ![tt](https://github.com/user-attachments/assets/45d93530-4c6e-4819-b430-d05d175aaa5a)
 
@@ -77,9 +77,9 @@ About time-series data ⤵️
    
 <img width="491" alt="image" src="https://github.com/ranja-sarkar/timeseries/assets/101544669/0dcf3f84-cc5c-4b16-98a5-58c4f2cddc9e">
 
-# Confidence in forecasts
+# Uncertainty in forecasts
 
-There are several tools for quantification of uncertainty (in forecasts), each with their drawbacks like not having guaranteed coverage, conformal prediction however fills the gap. 
+The uncertainty determines our confidence in the forecasts. There are several tools for quantification of this uncertainty, each with their drawbacks like not having guaranteed coverage, conformal prediction however fills the gap. 
 
 ![cp](https://github.com/user-attachments/assets/eadf0b62-3f0c-4a92-abfe-e37c06bfdd12)
 
@@ -98,7 +98,7 @@ Subway uncertainty is the uncertainty of known unknowns; events can be predicted
 
 Coconut uncertainty is an allusion to a coconut unexpectedly falling on one’s head while on a beach. It is the uncertainty of unknown unknowns due to ill-behaved forecast errors; events that could never be predicted no matter how hard we tried.
 
-# Baseline Models
+# Baseline models
 
 Forecast of level + trend is a baseline forecast. Baseline forecasts with the persistence model (using an observation at the previous time step to learn what will happen in the next time step) quickly indicate whether you can do significantly better. Baseline forecasts quickly indicate whether you can have significantly better forecasts by utilizing advanced models. If there’s no recognizable pattern, you’re probably dealing with a random walk process (future is independent of past). 
 
@@ -181,7 +181,7 @@ For probabilistic time-series modeling, one can use AutoGluon's [gluonts](https:
 And there's also [Bayesian forecasting](https://github.com/ChadFulton/scipy2022-bayesian-time-series) using statsmodels.
 
 
-# Foundation Model for forecasting
+# Foundation model for forecasting
 
 [TimeGPT](https://github.com/Nixtla/nixtla) is production ready pre-trained time-series foundation model for forecasting & anomaly detection by [NIXTLA](https://www.nixtla.io/), which democratizes access to SOTA open-source tools as well as enterprise APIs for anomaly detection and forecasting.
 
