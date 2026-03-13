@@ -185,7 +185,7 @@ One can develop dynamic models to investigate short-term and long-term causal ef
 One can utilize deep learning algorithms like LSTM (with either [tensorflow](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/23ac98dc7fc119547fb094757165395fe061fff4/_posts/codes/LSTM_with_Tensorflow.ipynb) or pytorch) in multivariate time-series.
 
 
-# Probabilistic modeling with time-series
+# Probabilistic forecasting
 
 For probabilistic time-series modeling, one can use AutoGluon's [gluonts](https://colab.research.google.com/drive/1M7J9zSAJ6x6w-76JzOBjft3CvmCGaELP) from [AWS labs](https://github.com/awslabs/gluonts).
 
