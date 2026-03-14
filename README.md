@@ -191,10 +191,11 @@ For probabilistic time-series modeling, one can use AutoGluon's [gluonts](https:
 
 [Chronos](https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-chronos.html) is a family of pretrained time series forecasting models. Chronos models are based on language model architectures, and work by quantizing time-series into buckets which are treated as tokens.
 
-[Here's](https://www.amazon.science/blog/adapting-language-model-architectures-for-time-series-forecasting) how to adapt to LM architectures for forecasting from Amazon Science!!
+[Here's](https://www.amazon.science/blog/adapting-language-model-architectures-for-time-series-forecasting) (A,azon Science) how to adapt to LM architectures for forecasting!
 
 And there's also [Bayesian forecasting](https://github.com/ChadFulton/scipy2022-bayesian-time-series) using statsmodels.
 
+Ome may as well resort to [skforecast](https://skforecast.org/latest/user_guides/probabilistic-forecasting-conformal-prediction) for probabilistic forecasting. It utilizes conformal prediction which provides 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗶𝗼𝗻-𝗳𝗿𝗲𝗲 𝗺𝗮𝗿𝗴𝗶𝗻𝗮𝗹 𝗰𝗼𝘃𝗲𝗿𝗮𝗴𝗲 𝗴𝘂𝗮𝗿𝗮𝗻𝘁𝗲𝗲𝘀. Otherwise, traditional prediction intervals rely on Gaussian assumptions or expensive sampling. 
 
 # Foundation model for forecasting
 
