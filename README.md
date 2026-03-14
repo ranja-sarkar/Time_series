@@ -195,7 +195,7 @@ For probabilistic time-series modeling, one can use AutoGluon's [gluonts](https:
 
 And there's also [Bayesian forecasting](https://github.com/ChadFulton/scipy2022-bayesian-time-series) using statsmodels.
 
-Ome may as well resort to [skforecast](https://skforecast.org/latest/user_guides/probabilistic-forecasting-conformal-prediction) for probabilistic forecasting. It utilizes conformal prediction which provides 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗶𝗼𝗻-𝗳𝗿𝗲𝗲 𝗺𝗮𝗿𝗴𝗶𝗻𝗮𝗹 𝗰𝗼𝘃𝗲𝗿𝗮𝗴𝗲 𝗴𝘂𝗮𝗿𝗮𝗻𝘁𝗲𝗲𝘀. Otherwise, traditional prediction intervals rely on Gaussian assumptions or expensive sampling. 
+One may as well resort to [skforecast](https://skforecast.org/latest/user_guides/probabilistic-forecasting-conformal-prediction) for probabilistic forecasting. It utilizes conformal prediction which provides distribution-free marginal coverage guarantees. Otherwise, traditional prediction intervals rely on Gaussian assumptions or expensive sampling. 
 
 # Foundation model for forecasting
 
