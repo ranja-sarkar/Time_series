@@ -133,7 +133,7 @@ Smoothing models are for removal of noise.
 [Simple Moving Average (SMA)](https://github.com/ranja-sarkar/Time_series/blob/51c1b10d2dc546caba8cbd5a7e5f2cfae92feccd/baseline_models/Baseline_models_SMA_%26_EMA.ipynb) uses a sliding window to take the average over a set number of time periods. It is an equally weighted mean of the previous data in this period.
 Unlike SMA which drops the oldest observation as the new one gets added, cumulative moving average (CMA) considers all prior observations. 
 
-[Exponential moving average (EMA)](https://github.com/ranja-sarkar/Time_series/blob/51c1b10d2dc546caba8cbd5a7e5f2cfae92feccd/baseline_models/Baseline_models_SMA_%26_EMA.ipynb) gives more weight to the recent prices as a result of which, EMA can better capture the movement of the trend. Exponential smoothing defines trend as the difference between observed values in consecutive records in time.
+[Exponential moving average (EMA)](https://github.com/ranja-sarkar/Time_series/blob/51c1b10d2dc546caba8cbd5a7e5f2cfae92feccd/baseline_models/Baseline_models_SMA_%26_EMA.ipynb) gives more weight to the recent observations as a result of which, EMA can better capture the movement of the trend. Exponential smoothing defines trend as the difference between observed values in consecutive records in time.
 
 # Forecasting Libraries
 
@@ -156,13 +156,11 @@ skforecast has [backtesting strategies](https://skforecast.org/0.14.0/user_guide
 
 📌 [autoTS](https://github.com/winedarksea/AutoTS)
 
-Please note 'autoTS' is different from [auto_ts](https://colab.research.google.com/drive/1OgvVA1XLRle3gUBtu2tVcHmSTqR1-vP3).
-
 
 Outliers or anomalies in time-series data can be point or collective (subsequent). 
 
 
-📌 [PROPHET (by Meta)](https://facebook.github.io/prophet/docs/outliers.html)
+📌 [PROPHET](https://facebook.github.io/prophet/docs/outliers.html) (by Meta/FB)
 
 
 📌 [puncc](https://github.com/deel-ai/puncc) for [conformal prediction](https://colab.research.google.com/drive/1iP36nrvTge18kdNZPOXjn5nje8SMj-bk)
