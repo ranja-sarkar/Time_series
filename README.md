@@ -166,7 +166,7 @@ Outliers or anomalies in time-series data can be point or collective (subsequent
 📌 [puncc](https://github.com/deel-ai/puncc) for [conformal prediction](https://colab.research.google.com/drive/1iP36nrvTge18kdNZPOXjn5nje8SMj-bk)
 
 
-📌 [merlion (by Salesforce)](https://github.com/salesforce/Merlion)
+📌 [merlion](https://github.com/salesforce/Merlion) (by Salesforce)
 
 <img width="503" alt="1" src="https://github.com/user-attachments/assets/e076da9d-425e-4a21-b547-abe10982e484">
 
