@@ -193,11 +193,13 @@ For probabilistic time-series modeling, one can use AutoGluon's [gluonts](https:
 
 And there's also [Bayesian forecasting](https://github.com/ChadFulton/scipy2022-bayesian-time-series) using statsmodels.
 
-One may as well resort to [skforecast](https://skforecast.org/latest/user_guides/probabilistic-forecasting-conformal-prediction) for probabilistic forecasting. It utilizes conformal prediction which provides distribution-free marginal coverage guarantees. Otherwise, traditional prediction intervals rely on Gaussian assumptions or expensive sampling. 
+One may as well utilize [skforecast](https://skforecast.org/latest/user_guides/probabilistic-forecasting-conformal-prediction) for probabilistic forecasting. It uses conformal prediction, which provides distribution-free marginal coverage guarantees. Otherwise, traditional prediction intervals rely on Gaussian assumptions or expensive sampling. 
 
 # Foundation model for forecasting
 
 [TimeGPT](https://github.com/Nixtla/nixtla) is production ready pre-trained time-series foundation model for forecasting & anomaly detection by [NIXTLA](https://www.nixtla.io/), which democratizes access to SOTA open-source tools as well as enterprise APIs for anomaly detection and forecasting.
+
+[skforesat](https://skforecast.org/latest/user_guides/foundation-forecasting-models.html) also lets you forecast using foundation models like Chronos (by Amazon), Moirai (by Salesforce), etc..
 
 
 
