@@ -121,9 +121,9 @@ The human mind is hardwired to look for patterns everywhere and we must be vigil
 
 Approaches to smoothing a time-series:
 
-1. **Holt's method** - there're level smoothing constant (alpha) and trend constant (beta).
+1. **Holt's method** - there're two parameters viz, level smoothing constant (alpha) and trend constant (beta).
 
-2. **Holt Winter's method** - there's seasonal smoothing constant (delta) and considers seasonal baseline which is a regularly recurring pattern (day, week, month, quarter etc.) and baseline rises and falls at regular intervals. Deviation of each season from the baseline’s long-term (annual) average is used for forecasts. 
+2. **Holt Winter's method** - there's seasonal smoothing constant (delta) as well; considers seasonal baseline which is a regularly recurring pattern (day, week, month, quarter etc.) and baseline rises and falls at regular intervals. Deviation of each season from the baseline’s long-term or annual average is used for forecasts.
 
 Smoothing models are for removal of noise. 
 
@@ -133,7 +133,10 @@ Smoothing models are for removal of noise.
 [Simple Moving Average (SMA)](https://github.com/ranja-sarkar/Time_series/blob/51c1b10d2dc546caba8cbd5a7e5f2cfae92feccd/baseline_models/Baseline_models_SMA_%26_EMA.ipynb) uses a sliding window to take the average over a set number of time periods. It is an equally weighted mean of the previous data in this period.
 Unlike SMA which drops the oldest observation as the new one gets added, cumulative moving average (CMA) considers all prior observations. 
 
-[Exponential moving average (EMA)](https://github.com/ranja-sarkar/Time_series/blob/51c1b10d2dc546caba8cbd5a7e5f2cfae92feccd/baseline_models/Baseline_models_SMA_%26_EMA.ipynb) gives more weight to the recent observations as a result of which, EMA can better capture the movement of the trend. Exponential smoothing defines trend as the difference between observed values in consecutive records in time.
+[Exponential moving average (EMA)](https://github.com/ranja-sarkar/Time_series/blob/51c1b10d2dc546caba8cbd5a7e5f2cfae92feccd/baseline_models/Baseline_models_SMA_%26_EMA.ipynb) gives more weight to the recent observations as a result of which, EMA can better capture the movement of the trend. Exponential smoothing defines trend as the difference between observed values in consecutive records in time. 
+
+There is a difference between SimpleExpSmoothing (SES in statsmodels acts as a basic, single-parameter model for stationary data) and ExponentialSmoothing (statsmodels Holt-Winters - a comprehensive framework handling level, trend, and seasonality). SES focuses on the most recent level, while ExponentialSmoothing uses components to handle complex trends and repeating seasonal patterns.
+
 
 # Forecasting Libraries
 
